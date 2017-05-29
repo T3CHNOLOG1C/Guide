@@ -7,17 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "3DS Guide"
+title                    : "Vita Guide"
 title_separator          : "-"
-name                     : "Plailect"
-description              : "Full sighax CFW Guide"
+name                     : "T3CHNOLOG1C & Coderx3"
+description              : "Full Henkaku HEN (Homebrew Enabler) Guide"
 fixurl                   : "http://vitaguide.tk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "3ds.guide"
+enforce_ssl              : "vitaguide.tk"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "T3CHNOLOG1C/T3CHNOLOG1C.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
-words_per_minute         : 200
+words_per_minute         : ???
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -78,11 +78,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Plailect"
+  name             : "T3CHNOLOG1C"
   avatar           : "bio-photo.png"
-  bio              : "3DS Hacker"
-  location         : "Nullsec"
-  email            : "Plailect@gmail.com"
+  bio              : "Vita / 3DS Hacker / Nerd"
+  location         : "Error 404"
+  email            : "t3chnolog1c.biz@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -90,18 +90,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Plailect"
+  github           : "T3CHNOLOG1C"
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           : "Plailect"
+  lastfm           : 
   linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "Plailect"
+  twitter          : "T3CHNOLOG1C"
   vine             :
   weibo            :
   xing             :
