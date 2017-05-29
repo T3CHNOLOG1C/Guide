@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "3DS Guide" #
+title: "Vita Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -8,49 +8,40 @@ header:
   cta_label: "Get Started" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "A complete guide to PS Vita / Vita TV Custom Firmware, <br /> from stock to HENkaku.<br />"
 ---
 
 {% capture notice-home %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide).
+This guide is for retail (consumer purchased; not from the Playstation Developer Program) consoles _only_!    
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
-{: .notice--success}
-
-This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
-{: .notice--success}
 
 Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
 ## What is Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-In most cases, running homebrew on your device is 100% free using [just the Nintendo 3DS Sound app](homebrew-launcher-(soundhax)). There are also various other exploits in commercial games and the browser to get homebrew running.
+Running homebrew on your device is 100% free using [just the PS Vita's Web browser](running-henkaku).
 
-## What is Custom Firmware?
+## What is a Homebrew Enabler?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
+**Homebrew Enabler** ("HEN") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned apps that appear right on your LiveArea screen.
 
-CFW can be easily set up on any console that is on 11.4.0 or lower.
+HEN can be easily set up on any console that is on 3.60 or lower.
 
 ## What does this guide install?
 
-This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to boot9strap powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+This guide has the end goal of taking a completely unmodified 3DS from stock firmware to a Homebrew Enabler called HENkaku.
 
-boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
+HENkaku is currently the only feasible method for running homebrew on our PS Vita / TV systems. We will also install an offline version of HENkaku that takes advantage of the same browser exploit used by HENkaku in the email app. It gives us a way to run HENkaku even when our console is not connected to the internet.
 
-The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
+For information on how HENkaku works, please see [this blog post](https://yifan.lu/2016/10/20/henkaku-koth-solved/) by [Yifan Lu](https://twitter.com/yifanlu).
 
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
-
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+## STILL NEED TO EDIT BELOW
 
 ## What can I do with Custom Firmware?
 
