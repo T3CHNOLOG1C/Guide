@@ -37,12 +37,8 @@ Your device version under the "System Information" Screen in Settings.
       <td style="text-align: center; font-weight: bold;">3.60</td>
       <td style="text-align: center; font-weight: bold;">3.60</td>
       <td style="text-align: center; font-weight: bold;"><a href="running-henkaku(browser)">Running Henkaku (Browser)</a></td>
-      <td style="text-align: center; font-weight: bold;"></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center; font-weight: bold;">3.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
@@ -67,16 +63,16 @@ Your device version under the "System Information" Screen in Settings.
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
       <td style="text-align: center; font-weight: bold;">11.3.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Installing boot9strap (DSiWare)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(dsiware)">Installing boot9strap (DSiWare)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">ALL VERSIONS<br><sub>(Requires Soldering!)</sub></td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(hardmod)">Installing boot9strap (Hardmod)</a></td>
+      <td style="text-align: center; font-weight: bold;">ALL VERSIONS<br><sub>(Requires Soldering!)</sub></td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(hardmod)">Installing boot9strap (Hardmod)</a></td>
     </tr>
   </tbody>
 </table>
