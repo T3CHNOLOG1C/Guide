@@ -23,4 +23,4 @@ Before starting, Windows users should enable the option to show file extensions 
 
 | PSTV | PS Vita or PS Vita Slim |
 |:-:|:-:|
-| [![PS TV](/images/pstv_black.png)](get-started-(PSTV)) | [![PS Vita](/images/vita_phat.png)](get-started-(vita)) <br><br> [![PS Vita Slim](/images/vita_slim.png)](get-started-(vita)) |
+| [![PS TV](/images/pstv.png)](get-started-(PSTV)) | [![PS Vita](/images/vita_phat.png)](get-started-(vita)) <br><br> [![PS Vita Slim](/images/vita_slim.png)](get-started-(vita)) |
