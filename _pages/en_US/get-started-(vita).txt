@@ -46,7 +46,6 @@ Your device version can be found at the bottom right of the top screen of the Sy
     <tr>
       <th style="text-align: center">From</th>
       <th style="text-align: center">To</th>
-      <th style="text-align: center">No Browser</th>
       <th style="text-align: center">Browser</th>
     </tr>
   </thead>
