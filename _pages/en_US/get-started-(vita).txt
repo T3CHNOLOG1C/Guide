@@ -5,10 +5,10 @@ title: "Get Started (Vita)"
 Select the appropriate page for your version from the chart below.
 {: .notice--primary}
 
-For all versions you can also [Cart Update](cart-update(vita)) to a higher version in the same column to follow its instructions.
+For all versions you can also [Cart Update](cart-update(PSTV)) to a higher version in the same column to follow its instructions.
 {: .notice--info}
 
-Your device version can be found at the bottom right of the top screen of the System Settings.
+Your device version under the "System Information" Screen in Settings.
 {: .notice--success}
 
 ![]({{ base_path }}/images/screenshots/system-version.png)
