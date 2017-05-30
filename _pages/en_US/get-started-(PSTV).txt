@@ -48,25 +48,21 @@ Your device version under the "System Information" Screen in Settings.
       <td style="text-align: center; font-weight: bold;">4.0.0</td>
       <td style="text-align: center; font-weight: bold;">4.5.0</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Installing boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
       <td style="text-align: center; font-weight: bold;">5.1.0</td>
       <td style="text-align: center; font-weight: bold;"></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">6.0.0</td>
       <td style="text-align: center; font-weight: bold;">6.3.0</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Installing boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
       <td style="text-align: center; font-weight: bold;"></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installing boot9strap (Browser)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
