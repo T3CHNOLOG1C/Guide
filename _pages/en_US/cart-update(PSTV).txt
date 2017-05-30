@@ -12,10 +12,10 @@ All game carts contain a copy of the required system version to play it, allowin
 
 #### Instructions
 
-1. Put the game in your device if it is not already
-1. Boot your device into recovery mode by holding (R) + (PS) while powering on
-1. Select "Update System Software"
-1. Select "Update from PS Vita Card"
+1. Put the game in your device if it is not already inserted.
+1. Boot your device into recovery mode by holding the power button while powering on.
+1. Select "Update System Software".
+1. Select "Update from PS Vita Card".
 1. Make sure that the version displayed is <= 3.60.
 1. Select Next.
 1. Using the D-Pad, scroll to the bottom of the System Update agreement and accept it.
