@@ -18,7 +18,7 @@ Your device version under the "System Information" Screen in Settings.
   <colgroup>
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
-    <col span="1" style="width: 40%;">
+    <col span="1" style="width: 80%;">
   </colgroup>
   <thead>
     <tr>
