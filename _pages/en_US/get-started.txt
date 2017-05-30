@@ -19,7 +19,6 @@ Before starting, Windows users should enable the option to show file extensions 
 {: .notice--info}
 
 
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 | PSTV | PS Vita or PS Vita Slim |
 |:-:|:-:|
