@@ -5,7 +5,7 @@ title: "Credits"
 **Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
+**Special thanks to Plailect for creating [3ds.guide](https://3ds.guide/)!**
 {: .notice--primary}
 
 If I forgot you here, contact me and I'll add your name.
@@ -18,6 +18,7 @@ If I forgot you here, contact me and I'll add your name.
     + Xam (Buying the domain)
     + Dylan "MemeWay V1" (psvimagetools Guides)
     + Molecule team (HENkaku)
+
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
