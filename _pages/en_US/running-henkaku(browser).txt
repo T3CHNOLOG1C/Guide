@@ -26,5 +26,5 @@ title: "Running Henkaku (Browser)"
 
 
 
-Continue to [Finalizing Setup](finalizing-setup)
+Continue to [Installing VitaShell](installing-vitashell)
 {: .notice--primary}
