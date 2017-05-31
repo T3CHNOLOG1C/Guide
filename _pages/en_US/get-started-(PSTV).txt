@@ -5,9 +5,6 @@ title: "Get Started (PS TV)"
 Select the appropriate page for your version from the chart below.
 {: .notice--primary}
 
-For all versions you can also [Cart Update](cart-update(PSTV)) to a higher version in the same column to follow its instructions.
-{: .notice--info}
-
 Your device version under the "System Information" Screen in Settings.
 {: .notice--success}
 
