@@ -1,0 +1,37 @@
+---
+title: "Manual Update to 3.60 (HEUS)"
+---
+
+#### What you need
+
+* An internet connection on your Vita / PS TV
+
+#### Instructions
+
+##### Section I: HENkaku Easy Update Server Setup
+
+1. Open the Settings app.
+1. Select 'Network'.
+1. Select 'Wi-Fi Settings'
+1. If you are not connected to the internet, do so now.
+1. Select your current connection. (Should have a green dot to the left.)
+1. Select 'Advanced Settings'
+1. Under 'DNS Settings', choose 'Manual'
+1. Set 'Primary DNS' to '212.47.229.76'.
+1. Leave 'Secondary DNS' blank.
+1. Make sure 'Proxy Server' is set to 'Do Not Use'.
+1. Press OK and back out to the main settings screen.
+
+##### Section II: Updating to 3.60
+
+1. Open molecularShell.
+1. Press start to open the HENkaku settings menu.
+1. Choose "Configure HENkaku in Settings application".
+1. Select HENkaku Settings
+1. Check "Enable Unsafe Homebrew".
+1. Press the back button twice to return to molecularShell.
+
+
+
+Continue to [Running HENkaku (Browser)](running-henkaku(browser))
+{: .notice--primary}
