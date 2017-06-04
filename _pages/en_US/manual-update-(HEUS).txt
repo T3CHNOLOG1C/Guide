@@ -24,13 +24,13 @@ title: "Manual Update to 3.60 (HEUS)"
 
 ##### Section II: Updating to 3.60
 
-1. Open molecularShell.
-1. Press start to open the HENkaku settings menu.
-1. Choose "Configure HENkaku in Settings application".
-1. Select HENkaku Settings
-1. Check "Enable Unsafe Homebrew".
-1. Press the back button twice to return to molecularShell.
+1. Select 'System Update'.
+1. Select 'Update Using Wi-Fi'
+1. If you get an error saying your system is up to date, that means either your Vita is on 3.60 already, or it is on a firmware > 3.60 and is not supported by HENkaku.
+1. Make sure that the update says '3.60 (変革 Compatible)', if it says anything else, make sure you followed ALL the Steps!
 
+You can now go back into your Advanced Wi-Fi settings and change your DNS settings back, however, if you leave the DNS Settings alone after updating, you get an aditional update blocker so you wont accidentally update to > 3.60.
+{: .notice--info}
 
 
 Continue to [Running HENkaku (Browser)](running-henkaku(browser))
