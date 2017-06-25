@@ -92,10 +92,10 @@ Note that, on some versions of Luma3DS, the Luma3DS chainloader menu is only dis
 1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then return to [Finalizing Setup](finalizing-setup) and retry the FBI injection
 
 ## <a name="ts_browser" />A browser based exploit is not working
-Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps
+Browser based exploits (such as the WebKit exploit used for HENkaku) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps
 
-1. Launch the browser, then launch the browser settings
-1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data)
+1. Launch the browser, then open the browser settings
+1. Scroll to the bottom and click "Delete Cookies" and "Clear Search History"
 1. Try the exploit again
 
 ## <a name="ts_sys_down" />Black screen on SysNAND boot
