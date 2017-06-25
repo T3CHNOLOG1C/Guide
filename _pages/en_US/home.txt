@@ -8,7 +8,7 @@ header:
   cta_label: "Get Started" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku.<br />"
+excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku or ePSP Homebrew.<br />"
 ---
 
 {% capture notice-home %}
