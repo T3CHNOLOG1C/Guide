@@ -2,7 +2,7 @@
 title: "Offline Exploit to Ensō"
 ---
 
-Henkaku Ensō is a "Permanent Hack" for the PS Vita. It starts HENkaku at boot-time so there will be no need to us the Browser or Email exploits. 
+Henkaku Ensō is a "Permanent Hack" for the PS Vita. It starts HENkaku at boot-time so there will be no need to use the Browser or Email exploits. 
 {: .notice--info}
 
 On this page we will install Ensō and unintstall the email exploit.
