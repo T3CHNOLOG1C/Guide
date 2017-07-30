@@ -55,8 +55,5 @@ We will now be uninstalling the email exploit and the offline installer now that
 
 ___
 
-You are now on HENkaku ens
+You are now on HENkaku Ensō
 {: .notice--info}
-
-Return to [Finalizing Setup](finalizing-setup).
-{: .notice--primary}
