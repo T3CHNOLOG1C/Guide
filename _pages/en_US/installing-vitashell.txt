@@ -2,14 +2,8 @@
 title: "Installing VitaShell"
 ---
 
-Our next step is to install VitaShell
+Our next step is to install VitaShell, which is similar to molecularShell but has more features.
 {: .notice--info}
-
-Soundhax is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
-{: .notice--info}
-
-
-<div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 #### What you need
 
@@ -24,7 +18,7 @@ Soundhax is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, 
 1. On your PC, connect to your Vita using your FTP client
 1. Copy the VitaShell `.vpk` to `ux0:` folder
 
-    ![]({{ base_path }}/images/screenshots/soundhax-file-layout.png)
+    ![]({{ base_path }}/images/screenshots/filezilla-vitashell.png)
     {: .notice--info}
 
 1. Press ⭕ on your Vita to close the FTP Server
@@ -38,5 +32,5 @@ Soundhax is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, 
 
 ___
 
-Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
