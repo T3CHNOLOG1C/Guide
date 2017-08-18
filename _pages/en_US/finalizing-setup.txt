@@ -13,8 +13,6 @@ During this process, we will setup programs such as the following:
 +  **Save Manager** *(a tool to dump and restore save games)*
 +  **__PSTV ONLY:__ AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
 
-{% endcapture %}
-
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
 #### What you need
