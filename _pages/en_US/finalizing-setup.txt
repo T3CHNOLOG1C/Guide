@@ -11,7 +11,7 @@ During this process, we will setup programs such as the following:
 +  **Adrenaline** *(ePSP CFW)*
 +  **Download Enabler** *(a plugin to allow downloading files via the web browser to ux0:download)*
 +  **Save Manager** *(a tool to dump and restore save games)*
-+  **__PSTV ONLY:__ AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
++  **PSTV ONLY: AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
@@ -51,7 +51,7 @@ During this process, we will setup programs such as the following:
 1. Select the `TEMA.vpk`and press X to install it.
 1. Select the `AdrenalineEasyInstaller_vXXX.vpk`and press X to install it.
 1. Select the `savemgr.vpk`and press X to install it.
-1. **PS TV Only:** 1. Select the `AntiBlacklist.vpk`and press X to install it
+1. **PS TV Only:** Select the `AntiBlacklist.vpk`and press X to install it
 1. Exit VitaShell.
 
 ##### Section III - Installing Adrenaline.
