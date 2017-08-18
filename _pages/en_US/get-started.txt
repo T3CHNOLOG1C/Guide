@@ -9,7 +9,7 @@ The colors of the devices in the image may vary, but note the button placement a
 Click the image of your device to take you to the appropriate page.
 {: .notice--primary}
 
-Different device models, versions, and regions will require different steps to achieve the end goal of HENkaku Homebrew Enabler. This page will help you find where to start for your device.
+Different device models, versions, and regions will require different steps to achieve the end goal of HENkaku Ensō or ePSP Homebrew. This page will help you find where to start for your device.
 {: .notice--info}
 
 Note that screenshots in this guide can be enlarged to show more context by clicking on them.

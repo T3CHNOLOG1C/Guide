@@ -30,7 +30,10 @@ Our next step is to install VitaShell, which is similar to molecularShell but ha
     ![]({{ base_path }}/images/screenshots/vitashell.png)
     {: .notice--info}
 
+Now that VitaShell is installed you can transfer files to PS Vita systems via a USB cable or via a flash drive for PS TV systems.
+{: .notice--info}
+
 ___
 
-Continue to [Finalizing Setup](finalizing-setup)
+Continue to [Installing HENKaku Ensō](installing-enso)
 {: .notice--primary}

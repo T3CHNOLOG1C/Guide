@@ -23,7 +23,7 @@ title: "FAQ"
 **A:** No. You will lose access to HENkaku
 <br><br>
 <a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [GBATemp].
+**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
 <br><br>
 <a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB Memory Card?*    
 **A:** Yes!
