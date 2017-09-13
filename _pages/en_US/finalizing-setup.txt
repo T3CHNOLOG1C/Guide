@@ -21,7 +21,7 @@ During this process, we will setup programs such as the following:
 * An internet connection on your Vita and your PC
 * The latest release of [MaiDumpTool](https://github.com/LioMajor/MaiDumpToolEN/releases/latest)
 * The latest release of [TEMA](https://github.com/Mithrenes/TEMA/releases/latest)
-* The latest release of [Adrenaline EasyInstaller](https://github.com/Freakler/vita-AdrenalineEasyInstaller/releases/latest)
+* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases)
 * The latest release of [vita-savemgr](https://github.com/d3m3vilurr/vita-savemgr/releases/latest)
 * The latest release of [download-enabler](LINK HERE)
 * **PS TV Only:** [AntiBlacklist v1.2](http://vitadb.rinnegatamante.it/#/info/11)
@@ -49,14 +49,14 @@ During this process, we will setup programs such as the following:
 1. Navigate to the `ux0:` folder on your Vita through VitaShell.
 1. Select the `MaiDumpTool_Vxxx.xxxx_eng.vpk`and press X to install it.
 1. Select the `TEMA.vpk`and press X to install it.
-1. Select the `AdrenalineEasyInstaller_vXXX.vpk`and press X to install it.
+1. Select the `Adrenaline.vpk`and press X to install it.
 1. Select the `savemgr.vpk`and press X to install it.
 1. **PS TV Only:** Select the `AntiBlacklist.vpk`and press X to install it
 1. Exit VitaShell.
 
 ##### Section III - Installing Adrenaline.
 
-1. Launch Adrenaline EasyInstaller
+1. TODO: Follow the adrenaline installer steps and write up a guide
 
 1. **TODO:** finish this section
 
