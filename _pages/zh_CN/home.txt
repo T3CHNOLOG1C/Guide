@@ -1,78 +1,60 @@
 ---
 layout: splash
-title: "3DS 教程" #
+title: "Vita Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "开始教程" #
-  cta_url: "/zh_CN/get-started" #
+  cta_label: "Get Started" #
+  cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku Ensō or ePSP Homebrew.<br />"
 ---
 
 {% capture notice-home %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide).
+This guide is for retail (consumer purchased; not from the Playstation Developer Program) consoles _only_!    
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
-{: .notice--success}
-
-This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
-{: .notice--success}
 
 Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
-## 什么是自制程序？
+## What is Homebrew?
 
-[**Homebrew（自制程序）**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) 通常指未经任天堂授权的软件。 它能让你运行自制游戏，使用像修改和备份存档的工具，以及运行模拟器。
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-In most cases, running homebrew on your device is 100% free using [just the Nintendo 3DS Sound app](homebrew-launcher-(soundhax)). 除此之外也有许多其他在游戏里或者浏览器里的漏洞可以启动自制程序。
+Running homebrew on your device is 100% free using [just the PS Vita's Web browser](running-henkaku).
 
-## 什么是自制系统？
+## What is a Homebrew Enabler?
 
-**Custom Firmware（自制系统）** ("CFW") 可以使你进行自制程序无法轻易做到的更高级的破解。 例如，签名补丁可以使你安装未签名的程序，并让它们出现在桌面中。
+**Homebrew Enabler** ("HEN") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned apps that appear right on your LiveArea screen.
 
-CFW can be easily set up on any console that is on 11.4.0 or lower.
+HEN can be easily set up on any console that is on 3.60 or lower.
 
-## 本教程将安装什么？
+## What does this guide install?
 
-本教程的最终目的，是将一个未经修改过的装有原生系统的3DS
-firmware to boot9strap powered Custom Firmware. 在某些版本的机器上，本教程会使用自制程序作为手段，但是安装自制系统才是最终目的。
+This guide has the end goal of taking a completely unmodified Vita from stock firmware to a Homebrew Enabler called HENkaku.
 
-boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
+HENkaku is currently the only feasible method for running homebrew on our PS Vita / TV systems. It will install an application that can be used to install packages and manage files called "molecularShell" which we will use to install "VitaShell", another package / file manager with more features. We will also install an offline version of HENkaku that takes advantage of the same browser exploit used by HENkaku in the email app. It gives us a way to run HENkaku even when our console is not connected to the internet.
 
-The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
+For information on how HENkaku works, please see [this blog post](https://yifan.lu/2016/10/20/henkaku-koth-solved/) by [Yifan Lu](https://twitter.com/yifanlu).
 
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+## What can I do with a Homebrew Enabler?
 
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
++ Customize your LiveArea Screen with user-created [themes](http://vstema.com/).
++ Use "ROM hacks" for games that you own
++ [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
++ Dump your game cards to a format you can install, and play them without needing the card.
++ Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
++ Play backups of your PSP games on your Vita with Adrenaline ePSP CFW
 
-## 我可以在自制系统上做什么？
+## What do I need to know before starting?
 
-+ 跨区运行所有游戏卡带和eShop游戏
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
-+ 对你已有的游戏进行"ROM hacks"
-+ 进行游戏录像和程序截屏
-+ [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games
-+ 使用模拟器（如RetroArch或其它独立模拟器）运行老系统的游戏 （在任天堂新3DS上效果最佳）
-+ 安装自制程序，并让它们在你的桌面上出现
-+ 将游戏卡带的内容导出为可安装的格式，从而可以无需卡带运行游戏
-+ 仅限新3DS：使用NTR CFW将游戏录像在线输出到PC
-+ 运行许多以前被禁的或者无法在任天堂3DS上使用的NDS卡带
-+ 安全地升级到最新版本的系统，无需担心升级后无法访问自制程序
-
-## 在开始之前我需要知道什么？
-
-+ **在开始之前，你要知道破解3DS的风险：每次你修改系统的时候，都有可能会使你的3DS不可恢复的变砖。 这种情况很少见，但是仍然存在这样的可能性，所以请确保你完全按照本教程的指导进行操作。**
-+ If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Finalizing Setup](finalizing-setup).
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on firmware 11.4.0 or below.
-+ 如果一切顺利，在安装完自制系统后你不会丢失任何数据（包括游戏、NNID、存档等）。
++ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files.**
++ This guide will work on PS Vita, PS Vita Slim, and PSTV in all regions on firmware 3.60 or below.
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
-+ 如果你需要格式化一张新的SD卡，可以使用[`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，并将Allocation Unit Size（分配单元大小）设置为32K。
-+ 2DS所需的软件和老3DS一样，因而任何适用于老3DS的步骤也同样适用于2DS。
++ The PS Vita Slim is essentially identical to the Original PS Vita in terms of software, and that any steps which say "PS Vita" also apply to the slim model.
