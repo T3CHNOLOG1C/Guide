@@ -23,7 +23,7 @@ During this process, we will setup programs such as the following:
 * The latest release of [TEMA](https://github.com/Mithrenes/TEMA/releases/latest)
 * The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases)
 * The latest release of [vita-savemgr](https://github.com/d3m3vilurr/vita-savemgr/releases/latest)
-* The latest release of [download-enabler](LINK HERE)
+* The latest release of [Download Enabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
 * **PS TV Only:** [AntiBlacklist v1.2](http://vitadb.rinnegatamante.it/#/info/11)
 
 #### Instructions
@@ -36,6 +36,7 @@ During this process, we will setup programs such as the following:
 1. Copy `TEMA.vpk` to the `ux0:` folder on your Vita.
 1. Copy `Adrenaline.vpk` to the `ux0:` folder on your Vita.
 1. Copy `savemgr.vpk` to the `ux0:` folder on your Vita.
+1. Copy `download_enabler.suprx` to the `ux0:tai/` folder on your Vita.
 1. **PS TV Only:** Copy `AntiBlacklist.vpk` to the `ux0:` folder on your Vita.
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
@@ -68,15 +69,15 @@ During this process, we will setup programs such as the following:
 
 ##### Section IV - Setting up Download Enabler
 
-1. TODO: work on this
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*main``: ``ux0:tai/download_enabler.suprx``.
 
 ##### Section V - PS TV ONLY: Setting up AntiBlacklist
 
-1. TODO: also this
+1. (TODO: need to find someone with a pstv to help with this or just buy a pstv myself)
 
 ##### Section VI - Cleaning up
 
-1. TODO: this too
+1. You may now delete the ``.vpk`` files from the ``ux0:`` folder on your Vita.
 
 ___
 
