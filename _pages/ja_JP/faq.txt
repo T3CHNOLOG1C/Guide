@@ -4,56 +4,41 @@ title: "FAQ"
 
 {% capture notice-1 %}
 
-<a name="faq_latestfw" />**Q:** *私のデバイスは最新バージョンを使用しています。それでもハッキングできますか？*    
-**A:** Yes
+<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
+**A:** Yes, but not natively, we can, however, hack the PSP Emulator within the Vita (ePSP)
 <br><br>
-<a name="faq_updatecfw" />**Q:** *どうやってLuma3DSを更新できますか？*    
-**A:** Luma3DS Updaterを使用してください
+<a name="faq_updatecfw" />**Q:** *How do I update HENkaku?*    
+**A:** TODO: Figure out if its just run henkaku via browser or reinstall enso?
 <br><br>
-<a name="faq_gatewaysky" />**Q:** *ハッキングするために、Gateway、Sky3DSみたいな有料ツールを使用する必要があると聞いていましたが、本当ですか？*    
-**A:** いいえ。 boot9strap is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+<a name="faq_need" />**Q:** *What do I need to do this guide?*    
+**A:** This guide can be completely done with free software.
 <br><br>
-<a name="faq_gatewaysaves" />**Q:** *どうやって既存のGatewayセットアップからデバイス上にインストールしたゲームにセーブデータを移行しますか？*    
-**A:** [これ](https://gbatemp.net/threads/425743/)をご覧ください
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricks are relatively rare if you know what you are doing and don't modify critical system files.
 <br><br>
-<a name="faq_need" />**Q:** *このガイドに従うのに何が必要なの？*    
-**A:** このガイドは無料ソフトで完成できます
+<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+**A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
-<a name="faq_risky" />**Q:** *ゲーム機をハッキングすることの危険性は？*    
-**A:** 安全チェックを無視しない限り、*基本的*にはデバイスを壊す可能性はありません。
+<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
+**A:** No. You will lose access to HENkaku
 <br><br>
-<a name="faq_homebrew" />**Q:** *これを完成すると、すげぇ自制ソフトとエミュレーターも実行できますか？*    
-**A:** もちろんです！ カスタムファームウェアはHomebrew Launcherの実行を可能にするだけではなく、すべてのシステムバージョンへのアクセスも取得します。つまり、今後アップデートがあっても、カスタムファームウェアを維持できます。
+<a name="faq_support" />**Q:** *Where should I go for support?*    
+**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
 <br><br>
-<a name="faq_regionfree" />**Q:** *これを使ったらゲームをその地域を問わずプレイできますか？*    
-**A:** Luma3DSはリージョンフリーパッチに対応します。これを使って余分な変更や手順をせずどの地域のゲームでもプレイできます。
+<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB Memory Card?*    
+**A:** Yes!
 <br><br>
-<a name="faq_updates" />**Q:** *CFW SysNANDをアップデートしても安全ですか？*    
-**A:** はい。 本当に安全だからもう聞かないでください
+<a name="faq_movesd" />**Q:** *How do I move to a Memory Card at the end of this?* 
+**A:** TODO: write page on how to do this.
 <br><br>
-<a name="faq_support" />**Q:** *サポートはどこ？*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<a name="faq_NNID" />**Q:** *Can I keep my PSN Account?*    
+**A:** If you start with an PSN Account and follow every step, you will end up keeping your PSN Account at the end.
 <br><br>
-<a name="faq_le4gbsd" />**Q:** *容量が4GBかもっと小さなSDカードを使用してもいいですか？*    
-**A:** もちろんです！
+<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+**A:** All you need is the ability to use an FTP Client.
 <br><br>
-<a name="faq_ge128gbsd" />**Q:** *容量が128 GBかもっと大きなSDカードを使ってもいいですか？*    
-**A:** はい。ですが、一部のユーザーからはこういう容量を使用するとパフォーマンスに影響を及ぼす報告があります。 exFATではなくFAT32でフォーマットしなければならないのでご注意ください。
-<br><br>
-<a name="faq_movesd" />**Q:** *終わったら、どうやって新しいSDカードに切り替えますか？*    
-**A:** ファイルを全部新しいSDカードにコピーしてください。
-<br><br>
-<a name="faq_NNID" />**Q:** *NNIDをキープできますか？*    
-**A:** NNIDを所有する状態でガイドで始めて、ガイドの指示通りに実行すると、最後までもNNIDを失いません。
-<br><br>
-<a name="faq_systransfer" />**Q:** *システム転送はどうなりますか？*    
-**A:** Once you have completed the guide, you can system transfer to and from an B9S 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
-<br><br>
-<a name="faq_nopc" />**Q:** *パソコンを使わずAndroid携帯みたいなデバイスだけを使って完成できますか ？*    
-**A:** SDカードのファイルを変更できればいいです！
-<br><br>
-<a name="faq_problem" />**Q:** *助けて！ 何があって起動できなくなっちゃった...*    
-**A:** [トラブルシューティングガイド](troubleshooting)をご覧ください。
+<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
+**A:** Please look at the [troubleshooting guide](troubleshooting).
 
 {% endcapture %}
 
