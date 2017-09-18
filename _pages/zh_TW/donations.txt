@@ -1,9 +1,9 @@
 ---
-title: "贊助" #
+title: "Donations" #
 layout: single-no-ads
 ---
 
-[![Bitcoin]({{ base_path }}/images/bitcoin_white.png){:height="73px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety){: .align-center}
-[1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety)
+[![Bitcoin]({{ base_path }}/images/bitcoin_white.png){:height="73px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB){: .align-center}
+[1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB](bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB)
 {: .text-center}
 {: .notice--info}
