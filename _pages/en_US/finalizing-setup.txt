@@ -64,8 +64,7 @@ During this process, we will setup programs such as the following:
 1. Follow the PSP setup.
 1. Hold the PS Button and select 'Settings'.
 1. Choose 'Exit PspEmu Application'.
-1. Add the following line to ``ux0:tai/config.txt`` under the line ``*KERNEL``: ''ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx''
-1. **TODO:** finish this section
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*KERNEL``: ``ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx``.
 
 ##### Section IV - Setting up Download Enabler
 
