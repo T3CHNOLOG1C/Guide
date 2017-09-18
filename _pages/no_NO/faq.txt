@@ -4,56 +4,41 @@ title: "FAQ"
 
 {% capture notice-1 %}
 
-<a name="faq_latestfw" />**Q:** *Jeg er på den siste versjonen, kan jeg hacke den?*    
-**A:** Ja
+<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
+**A:** Yes, but not natively, we can, however, hack the PSP Emulator within the Vita (ePSP)
 <br><br>
-<a name="faq_updatecfw" />**Q:** *Hvordan oppdaterer jeg Luma3DS?*    
-**A:** Bruk Luma3DS Updater
+<a name="faq_updatecfw" />**Q:** *How do I update HENkaku?*    
+**A:** TODO: Figure out if its just run henkaku via browser or reinstall enso?
 <br><br>
-<a name="faq_gatewaysky" />**Q:** *Jeg har hørt om denne tingen jeg må betale for (Gateway, Sky3DS, etc), er det noe jeg trenger?*    
-**A:** Nei. boot9strap is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+<a name="faq_need" />**Q:** *What do I need to do this guide?*    
+**A:** This guide can be completely done with free software.
 <br><br>
-<a name="faq_gatewaysaves" />**Q:** *Hvordan flytter jeg saver fra en eksisterende Gateway installasjon til spill installert på enheten?*    
-**A:** Se [dnne tråden på gbatemp](https://gbatemp.net/threads/425743/)
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricks are relatively rare if you know what you are doing and don't modify critical system files.
 <br><br>
-<a name="faq_need" />**Q:** *Hva trenger jeg for å følge veiledningen?*    
-** A: ** kan denne veiledningen kan fullførest helt, med gratis programvare
+<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+**A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
-<a name="faq_risky" />**Q:** *Hvor risikabelt er det å hacke konsollen min?*    
-**A:** Bricking er nå *grunnsettlig* umulig, med mindre du ignorerer/unngår alle sikkerhetskontroller.
+<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
+**A:** No. You will lose access to HENkaku
 <br><br>
-<a name="faq_homebrew" />**Q:** *Kan jeg kjøre interesante homebrew og emulatorer med dette?*    
-**A:** Ja! Custom Firmware muligjør ikke bare Homebrew launcheren, men den vil også gi deg hacks på alle versjoner, noe som betyr at du beholder den for alltid, til og med ved oppdateringer.
+<a name="faq_support" />**Q:** *Where should I go for support?*    
+**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
 <br><br>
-<a name="faq_regionfree" />**Q:** *Kan jeg bruke dette til å spille spill fra andre regioner?*    
-**A:** Luma3DS støtter regionfrie patcher, som muliggjør brukere å installere spill fra en vilkårlig region uten noen ekstra endring eller andre trinn.
+<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB Memory Card?*    
+**A:** Yes!
 <br><br>
-<a name="faq_updates" />**Q:** *Er det trygt å oppdatere CFW SysNAND?*    
-**A:** Ja. Dette er trygt, slutt å spørre om det.
+<a name="faq_movesd" />**Q:** *How do I move to a Memory Card at the end of this?* 
+**A:** TODO: write page on how to do this.
 <br><br>
-<a name="faq_support" />**Q:** *Hvor går jeg for hjelp?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<a name="faq_NNID" />**Q:** *Can I keep my PSN Account?*    
+**A:** If you start with an PSN Account and follow every step, you will end up keeping your PSN Account at the end.
 <br><br>
-<a name="faq_le4gbsd" />**Q:** *Kan jeg gjøre dette med et 4GB (eller mindre) SD-kort?*    
-**A:** Ja!
+<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+**A:** All you need is the ability to use an FTP Client.
 <br><br>
-<a name="faq_ge128gbsd" />**Q:** *Kan jeg bruke et 128 GB (eller større) SD kort?*    
-**A:** Ja, men noen brukere har rapportert om at systemet kan bli tregere ved bruk av så store størrelser. Legg merke til at du ikke kan formatere kortet med exFAT; du må bruke FAT32.
-<br><br>
-<a name="faq_movesd" />**Q:** *Hvordan flytter jeg over til et nytt SD-kort etter dette?*    
-**A:** Det er bare å kopiere alle filene over til det nye SD-kortet.
-<br><br>
-<a name="faq_NNID" />**Q:** *Kan jeg beholde NNIDen min?*    
-**A:** Hvis du starter med en NNID og følger hvert steg så vil du beholde din NNID til slutt.
-<br><br>
-<a name="faq_systransfer" />**Q:** *Hva med systemoverføringer?*    
-**A:** Once you have completed the guide, you can system transfer to and from an B9S 3DS or 2DS exactly like you would a regular stock console or EmuNAND (you will lose any non-legitimate games/themes/DLC in the transfer; saves will stay even for games that are lost).
-<br><br>
-<a name="faq_nopc" />**Q:** *Kan jeg gjøre dette uten en datamaskin (f.eks. en Android mobil)?*    
-** A: ** alt du trenger er muligheten til å plassere filer på et SD-kort!
-<br><br>
-<a name="faq_problem" />**Q:** *Hjelp! Noe gikk galt, nå virker den ikke lengre...*    
-**A:** Se [feilsøking](troubleshooting).
+<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
+**A:** Please look at the [troubleshooting guide](troubleshooting).
 
 {% endcapture %}
 
