@@ -1,199 +1,96 @@
 ---
-title: "Завершение установки"
+title: "Finalizing Setup"
 ---
 
-#### Описание шагов
+#### Overview of steps
 
-{% capture notice-2 %}
+During this process, we will setup programs such as the following:    
 
-Файл `boot.firm` - это то, что boot9strap запускает после загрузки из NAND, и этот файл может быть любым arm9-приложением. Этот файл может быть заменён когда угодно, однако Luma3DS позволяет запускать другие arm9 приложения в FIRM формате, используя свой загрузчик.
-<br><br>
-Мы используем Luma3DS от [AuroraWright](https://github.com/AuroraWright/), чтобы запускать пропатченный SysNAND напрямую, поэтому необходимость в каком-либо виде EmuNAND полностью пропадает, что значительно упрощает использование взломанной 3DS и экономит место на SD-карте.
-<br><br>
-В процессе мы установим и настроим следующие программы:    
-
-+  **FBI** *(установщик приложений и игр в формате CIA)*
-+  **Themely** *(установка пользовательских тем)*
-+  **Luma3DS Updater** *(Удобное обновление CFW)*
-+  **GodMode9** *(многофункциональная утилита для работы с NAND и картриджами)*
-
-{% endcapture %}
++  **MaiDumpTool** *(allows you to dump your cartridges and digital games and install them)*
++  **TEMA** *(installs custom themes for your LiveArea and VitaShell)*
++  **Adrenaline** *(ePSP CFW)*
++  **Download Enabler** *(a plugin to allow downloading files via the web browser to ux0:download)*
++  **Save Manager** *(a tool to dump and restore save games)*
++  **PSTV ONLY: AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-#### Что понадобится
+#### What you need
 
-* Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z`-архив)*
-* Свежая версия [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(`.cia` файл)*
-* Свежая версия [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
-* Свежая версия [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Свежая версия [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* Свежая версия [FBI](https://github.com/Steveice10/FBI/releases/latest)
-* Свежая версия [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* **Только для Old 3DS и 2DS:** Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) для вашего региона
+* An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
+* An internet connection on your Vita and your PC
+* The latest release of [MaiDumpTool](https://github.com/LioMajor/MaiDumpToolEN/releases/latest)
+* The latest release of [TEMA](https://github.com/Mithrenes/TEMA/releases/latest)
+* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases)
+* The latest release of [vita-savemgr](https://github.com/d3m3vilurr/vita-savemgr/releases/latest)
+* The latest release of [Download Enabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
+* **PS TV Only:** [AntiBlacklist v1.2](http://vitadb.rinnegatamante.it/#/info/11)
 
-#### Инструкция
+#### Instructions
 
-##### Часть I - Подготовительные работы
+##### Section I - Prep Work
 
-1. Вставьте SD-карту в компьютер
-1. Создайте папку `cias` в корне SD-карты, если таковой нет
-1. Создайте папку `hblauncherloader` в корне SD-карты, если таковой нет
-1. Скопируйте `hblauncher_loader.cia` из архива hblauncher_loader в папку `/cias/` в корне SD-карты
-1. Скопируйте `lumaupdater.cia` из архива Luma3DS Updater в папку `/cias/` в корне SD-карты
-1. Скопируйте `FBI.cia` из архива FBI в папку `/cias/` в корне SD-карты
-1. Скопируйте `DSP1.cia` в папку `/cias/` в корне SD-карты
-1. Скопируйте `Themely.cia` в папку `/cias/` в корне SD-карты
-
-    ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
-    {: .notice--info}
-
-1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
-1. Создайте папку `luma` в корне SD-карты
-1. Создайте папку `payloads` в папке `luma` на SD-карте
-1. Скопируйте `GodMode9.firm` из `.zip-архива` GodMode9 в папку `/luma/payloads/` на SD-карте
-1. **Только для Old 3DS и 2DS:** Скопируйте Old 3DS 11.2.0-35 otherapp payload для вашего региона в папку `/hblauncherloader/` на SD-карте
-1. **Только для Old 3DS и 2DS:** Переименуйте файл Old 3DS 11.2.0-35 otherapp payload на SD-карте в один из указанных ниже, подходящий вашему региону:
-  + **EUR:** `OLD-11-4-0-37-EUR.bin`
-  + **JPN:** `OLD-11-4-0-37-JPN.bin`
-  + **KOR:** `OLD-11-4-0-37-KOR.bin`
-  + **USA:** `OLD-11-4-0-37-USA.bin`
+1. Launch VitaShell on your Vita and press Select to start the built-in FTP Server.
+1. Connect to your Vita using your FTP Client.
+1. Copy `MaiDumpTool_Vxxx.xxxx_eng.vpk` to the `ux0:` folder on your Vita.
+1. Copy `TEMA.vpk` to the `ux0:` folder on your Vita.
+1. Copy `Adrenaline.vpk` to the `ux0:` folder on your Vita.
+1. Copy `savemgr.vpk` to the `ux0:` folder on your Vita.
+1. Copy `download_enabler.suprx` to the `ux0:tai/` folder on your Vita.
+1. **PS TV Only:** Copy `AntiBlacklist.vpk` to the `ux0:` folder on your Vita.
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
     {: .notice--info}
 
-1. Если ваше устройство использует прошивку версии от 3.0.0 до 4.5.0, консоль не запустится до тех пор, пока вы вручную не скачаете нужные файлы прошивки:
-  + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) и переименуйте его в `firmware.bin`
-  + Скачайте [этот файл](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-  + Скопируйте `firmware.bin` и `cetk` в папку `/luma/` на SD-карте
-  + Удалите оба этих файла позже, после обновления устройства
-1. Вставьте SD-карту обратно в консоль
 
-##### Часть II - Настройка Luma3DS
+1. Press ⭕ on your Vita to close the FTP Server.
 
-1. Включите консоль, чтобы попасть в меню настроек Luma3DS
-  + Если после включения экран остаётся чёрным, то перейдите к разделу [проблемы и их решения](troubleshooting#ts_sys_b9s)
-1. С помощью кнопки (А) отметьте следующие пункты:    
-  + **"Show NAND or user string in System Settings"**
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
-  + Если после включения экран остаётся чёрным, просто переходите к следующей части   
+##### Section II - Installing Tools
 
-##### Часть III - Обновление системы
+1. Navigate to the `ux0:` folder on your Vita through VitaShell.
+1. Select the `MaiDumpTool_Vxxx.xxxx_eng.vpk`and press X to install it.
+1. Select the `TEMA.vpk`and press X to install it.
+1. Select the `Adrenaline.vpk`and press X to install it.
+1. Select the `savemgr.vpk`and press X to install it.
+1. **PS TV Only:** Select the `AntiBlacklist.vpk`and press X to install it
+1. Exit VitaShell.
 
-Если вы, следуя предыдущей версии этого руководства, выполнили CTRTransfer на прошивку 2.1.0 на *New 3DS*, [Восстановите бэкап NAND](godmode9-usage#nand_restore), прежде чем приступить к этой части.
-{: .notice--danger}
+##### Section III - Installing Adrenaline.
 
-Если до начала этого руководства у вас уже был установлен EmuNAND, и вы хотите перенести содержимое EmuNAND в SysNAND с кастомной прошивкой - сейчас самый подходящий момент. Выполните действия из раздела [перенос EmuNAND](move-emunand), прежде чем приступить к этой части.
-{: .notice--info}
+1. Launch Adrenaline.
+1. Press X to download the 661.PBP file.
+1. Once Adrenaline exits, relaunch it.
+1. Press X to install the 6.61 ePSP Firmware.
+1. Once it has installed, press X to boot the PSP XMB.
+1. Follow the PSP setup.
+1. Hold the PS Button and select 'Settings'.
+1. Choose 'Exit PspEmu Application'.
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*KERNEL``: ``ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx``.
 
-1. Обновите прошивку консоли, зайдя в Системные настройки (System Settings), затем "Прочие настройки" (Other Settings), затем листайте вправо до конца и выберите пункт "Обновление" (System Update)
-  + Обновление консоли с установленным B9S + Luma (установленых у вас) безопасно
-  + При появлении ошибки, поставьте в настройках подключения, в настройках DNS "Получать DNS автоматически" в положение "Да"
-  + Если вы все еще получаете ошибку и версия вашего NAND ниже 9.2.0, [выполните 9.2.0 CTRTransfer](9.2.0-ctrtransfer) и попробуйте обновиться еще раз
+##### Section IV - Setting up Download Enabler
 
-##### Часть IV - Интеграция FBI
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*main``: ``ux0:tai/download_enabler.suprx``.
 
-1. Перезагрузитесь с зажатой кнопкой (Start), чтобы запустить GodMode9
-1. Перейдите в `[0:] SDCARD` -> `cias`
-1. Нажмите (A) чтобы выбрать файл `FBI.cia`, затем выберите "CIA image options...", затем "Mount image to drive"
-1. Нажмите (A) чтобы выбрать файл `.app`, затем выберите "NCCH image options", затем "Inject to H&S"
-1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-1. Нажмите (A), чтобы продолжить
-1. Нажмите (Start) для перезагрузки
-1. Если при запуске Health & Safety запускается не FBI и вы в прошлом понижали прошивку с помощью Gateway, обратитесь к [этой части раздела Проблемы и их решения](troubleshooting#gw_fbi)
+##### Section V - PS TV ONLY: Setting up AntiBlacklist
 
-##### Часть V - Установка CIA
+1. (TODO: need to find someone with a pstv to help with this or just buy a pstv myself)
 
-1. Запустите "Информация о здоровье и безопасности" (Health and Safety) (теперь это FBI)
-1. Перейдите в `SD` -> `cias`
-1. Выберите "\<current directory>"
-1. Выберите "Install and delete all CIAs" и нажмите (A) для подтверждения
-1. Нажмите (Home) для выхода из FBI
+##### Section VI - Cleaning up
 
-##### Часть VI - DSP Dump
-
-1. Запустите DSP1
-1. После завершения нажмите (B) чтобы удалить это приложение и вернуться в меню HOME
-
-##### Часть VII - Восстановление приложения Информация о здоровье и безопасности (Health and Safety)
-
-1. Перезагрузитесь с зажатой кнопкой (Start), чтобы запустить GodMode9
-1. Нажмите кнопку (Home) для вызова меню
-1. Выберите "More..."
-1. Выберите "Restore H&S"
-1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-
-##### Часть VIII - CTRNAND Luma3DS
-
-1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `[0:] SDCARD`
-1. Нажмите (Y), выделив файл `boot.firm` чтобы скопировать его
-1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `[1:] SYSNAND CTRNAND`
-1. Нажмите (Y), чтобы вставить копию `boot.firm`
-1. Выберите "Copy path(s)"
-1. Нажмите (A), чтобы разрешить запись в SysNAND (lvl1) и введите указанную комбинацию кнопок
-1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `[0:] SDCARD`
-1. Нажмите (Y) на папке `luma`, чтобы скопировать её
-1. Нажмите (B) для возврата в главное меню
-1. Перейдите в `[1:] SYSNAND CTRNAND` -> `rw`
-1. Нажмите (Y), чтобы вставить копию папки `luma` из вашей SD-карты
-
-##### Часть IX - NAND Backup
-
-1. Дважды нажмите (B) для возврата в главное меню
-1. Нажмите кнопку (Home) для вызова меню
-1. Выберите "More..."
-1. Выберите "Backup NAND"
-1. Нажмите (A), чтобы продолжить
-1. Удерживая (R) нажмите (B) для того, чтобы извлечь SD-карту
-1. Вставьте SD-карту в компьютер
-1. Скопируйте `nand.bin` из папки `/gm9out/` на SD-карте в безопасное место на вашем компьютере
-  + Сделайте несколько резервных копий в нескольких местах (например в облачном хранилище)
-  + Эти бэкапы позволят восстановить консоль, если впоследствии что-то пойдёт не так
-1. После копирования удалите `nand.bin` из папки `/gm9out/` на SD-карте
-1. Вставьте SD-карту обратно в консоль
-1. Нажмите (Start), чтобы сохранить настройки и перезагрузиться
+1. You may now delete the ``.vpk`` files from the ``ux0:`` folder on your Vita.
 
 ___
 
-{% capture notice-10 %}
-Теперь вы можете использовать Luma3DS Updater для обновления кастомной прошивки. Запустите его и нажмите (А).     
-Это не тоже самое что Обновление системы (System Update). Это приложение обновляет только файлы Luma3DS.
-Это обновит только те файлы Luma3DS, которые находятся на SD-карте. Если вы включите консоль без SD-карты, она загрузится используя Luma3DS из CTRNAND.    
-{% endcapture %}
-
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
-
 {% capture notice-6 %}   
-Теперь по умолчанию будет запускаться Luma3DS CFW SysNAND.    
-Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (Select).    
-Теперь вы можете удерживать (Start) при загрузке для запуска Luma3DS chainloader меню (обратите внимание, что Luma3DS chainloader меню отображается только если существует более одного приложения).
-Теперь, с помощью зажатой комбинации клавиш (Start) + (Select) + (X) при включении консоли, вы сможете сохранить копии ARM11 bootrom (`boot11.bin`), ARM9 bootrom (`boot9.bin`) и уникального OTP вашей консоли (`OTP.bin`) в папку `/boot9strap/` на SD-карте (обратите внимание, что этот процесс не предусматривает отображения какого-либо оповещения).
+You will now have homebrew access every time you power on your Vita.
+TaiHEN plugins will now be loaded at boot, you can disable plugin loading by holding L during boot.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-Для использования [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/432911/).
-{: .notice--info}
 
-{% capture notice-7 %}
-Удалите любые лишние файлы и папки из корня вашей SD-карты, которых *нет* на следующем изображении:
-<br><br>
-![]({{ base_path }}/images/screenshots/final-file-layout.png)
-{% endcapture %}
-
-<div class="notice--info">{{ notice-7 | markdownify }}</div>
-
-Чтобы узнать, как сменить регион своей консоли, обратитесь к разделу [Смена региона](region-changing).
+For information on using MaiDumpTool to dump and install your games, check out the [MaiDumpTool Usage](maidumptool-usage) page.
 {: .notice--success}
 
-Для получения информации по использованию различных функций GodMode9 обратитесь к [Использование GodMode9](godmode9-usage).
-{: .notice--success}
-
-Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).
-{: .notice--success}
-
-Для получения информации по установке пользовательских тем, значков и экранов-заставок, посетите [3dsthem.es](https://3dsthem.es/about.php).
+For information on the SD2Vita, the cartridge slot MicroSD Adapter check out the [SD2Vita Information and Setup](sd2vita-info-setup) page.
 {: .notice--success}
