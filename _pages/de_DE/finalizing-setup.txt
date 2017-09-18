@@ -1,199 +1,96 @@
 ---
-title: "Setup abschließen"
+title: "Finalizing Setup"
 ---
 
-#### Übersicht der Schritte
+#### Overview of steps
 
-{% capture notice-2 %}
+During this process, we will setup programs such as the following:    
 
-Die Datei "boot.firm", die von boot9strap gestartet wird nachdem es vom NAND geladen wurde kann jeder funktionierende ARM9-Payload sein, wenn er im FIRM-Format ist. Die Datei kann jederzeit ersetzt werden, obwohl Luma3DS bei dem Start anderer ARM9-Payloads im FIRM-Format den Luma3DS-Chainloader benutzt.
-<br><br>
-In diesem Fall verwendest du Luma3DS von [AuroraWright](https://github.com/AuroraWright/), um direkt einen gepatchten SysNAND zu starten. Dies erlaubt es dir, die Notwendigkeit eines EmuNAND jeglicher Art komplett zu umgehen, was die Nutzung eines gehackten 3DS wesentlich erleichtert, sowie Speicherplatz auf der SD-Karte spart.
-<br><br>
-Während dieses Prozesses richtest du auch folgende Programme ein:    
-
-+ **FBI** *(installiert Spiele und Anwendungen im CIA-Format)*
-+ ** Themely ** *(installiert benutzerdefinierte Themes) *
-+ **Luma3DS Updater** *(aktualisiert deine CFW Installation)*
-+ **GodMode9** *(Multifunktionstool, welches NAND- und Cartridge-Funktionen ausführen kann)*
-
-{% endcapture %}
++  **MaiDumpTool** *(allows you to dump your cartridges and digital games and install them)*
++  **TEMA** *(installs custom themes for your LiveArea and VitaShell)*
++  **Adrenaline** *(ePSP CFW)*
++  **Download Enabler** *(a plugin to allow downloading files via the web browser to ux0:download)*
++  **Save Manager** *(a tool to dump and restore save games)*
++  **PSTV ONLY: AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-#### Was du brauchst
+#### What you need
 
-Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
-* Die neueste Version von [Themely] (https://github.com/ErmanSayin/Themely/releases/latest) *(the '.cia' file) *
-* Die neueste Version des [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
-* Der neueste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Die neueste Version von [DSP1] (https://github.com/zoogie/DSP1/releases/latest)
-* Die neueste Version von [FBI](https://github.com/Steveice10/FBI/releases/latest)
-* Die neueste Version vom Fork des [Luma3DS Updaters](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* **Nur für Old 3DS und 2DS: ** Die Old 3DS 11.2.0-35 [otherapp payload](https://smealum.github.io/3ds/#otherapp) für deine Region
+* An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
+* An internet connection on your Vita and your PC
+* The latest release of [MaiDumpTool](https://github.com/LioMajor/MaiDumpToolEN/releases/latest)
+* The latest release of [TEMA](https://github.com/Mithrenes/TEMA/releases/latest)
+* The latest release of [Adrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases)
+* The latest release of [vita-savemgr](https://github.com/d3m3vilurr/vita-savemgr/releases/latest)
+* The latest release of [Download Enabler](https://github.com/TheOfficialFloW/DownloadEnabler/releases/latest)
+* **PS TV Only:** [AntiBlacklist v1.2](http://vitadb.rinnegatamante.it/#/info/11)
 
-#### Anleitung
+#### Instructions
 
-##### Abschnitt I - Vorbereitung
+##### Section I - Prep Work
 
-1. Stecke deine SD-Karte in deinen Computer
-1. Erstelle einen Ordner namens `cias` im Stammverzeichnis deiner SD-Karte, falls er noch nicht existiert
-1. Erstelle einen Ordner mit dem Namen `hblauncherloader` im Stammverzeichnis deiner SD-Karte, falls er noch nicht existiert
-1. Kopiere `hblauncher_loader.cia` aus der hblauncher_loader-`.zip` in den `/cias/`-Ordner auf deiner SD-Karte
-1. Kopiere `lumaupdater.cia` aus der Luma3DS Updater-`.zip` in den `/cias/`-Ordner auf deiner SD-Karte
-1. Kopiere `FBI.cia` aus der FBI-`.zip` in den `/cias/`-Ordner auf deiner SD-Karte
-1. Kopieren Sie "DSP1.cia" in den/Cias/Ordner auf der SD-Karte
-1. Kopieren Sie "Themely.cia" in den/Cias/Ordner auf der SD-Karte
-
-    ![]({{ base_path }}/images/screenshots/cias-file-layout.png)
-    {: .notice--info}
-
-1. Kopiere die Datei `boot.firm` aus der `Luma3DS.7z` in das Stammverzeichnis deiner SD-Karte
-1. Erstelle einen Ordner mit dem Namen `luma` im Stammverzeichnis deiner SD-Karte
-1. Erstelle einen Ordner mit dem Namen `payloads` in dem `luma`-Ordner auf deiner SD-Karte
-1. Kopiere `Godmode9.firm`von der `Godmode9.zip`-Datei nach `/luma/payloads/` auf deiner SD Karte
-1. **Nur Old 3DS und 2DS:** Kopiere die OLD 3DS 11.2.0-35 otherapp payload für deine Region in den `/hblauncherloader/`-Ordner auf deiner SD-Karte
-1. **Nur Old 3DS und 2DS:** Ändere den Namen der Old 3DS 11.2.0-35 otherapp payload auf deiner SD-Karte, damit er deiner Region entspricht:
-  + **EUR:** `OLD-11-4-0-37-EUR.bin`
-  + **JPN:** `OLD-11-4-0-37-JPN.bin`
-  + **KOR:** `OLD-11-4-0-37-KOR.bin`
-  + **USA:** `OLD-11-4-0-37-USA.bin`
+1. Launch VitaShell on your Vita and press Select to start the built-in FTP Server.
+1. Connect to your Vita using your FTP Client.
+1. Copy `MaiDumpTool_Vxxx.xxxx_eng.vpk` to the `ux0:` folder on your Vita.
+1. Copy `TEMA.vpk` to the `ux0:` folder on your Vita.
+1. Copy `Adrenaline.vpk` to the `ux0:` folder on your Vita.
+1. Copy `savemgr.vpk` to the `ux0:` folder on your Vita.
+1. Copy `download_enabler.suprx` to the `ux0:tai/` folder on your Vita.
+1. **PS TV Only:** Copy `AntiBlacklist.vpk` to the `ux0:` folder on your Vita.
 
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
     {: .notice--info}
 
-1. Wenn dein Gerät eine Version zwischen 3.0.0 und (inklusive) 4.5.0 besitzt, wird dein Gerät nicht starten bis du die die nötige Firmware herunterlädst:
-  + Lade [diese Datei](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) herunter und nenne sie `firmware.bin`
-  + Lade dir [diese Datei](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk) herunter
-  + Kopiere `firmware.bin` und `cetk` in den `/luma/` Ordner deiner SD-Karte
-  + Delete both of these files after updating your device later in these instructions
-1. Stecke deine SD-Karte nun wieder in deinen 3DS
 
-##### Section II - Configuring Luma3DS
+1. Press ⭕ on your Vita to close the FTP Server.
 
-1. Boot your device to enter the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Nutze den (A)-Knopf und das Steuerkreuz um folgende Funktionen zu aktivieren:    
-  + **"Show NAND or user string in System Settings"**
-1. Drücke (Start) zum Speichern und neustarten
-  + Wenn du einen schwarzen Bildschirm hast, gehe einfach zum nächsten Schritt   
+##### Section II - Installing Tools
 
-##### Section III - Updating the System
+1. Navigate to the `ux0:` folder on your Vita through VitaShell.
+1. Select the `MaiDumpTool_Vxxx.xxxx_eng.vpk`and press X to install it.
+1. Select the `TEMA.vpk`and press X to install it.
+1. Select the `Adrenaline.vpk`and press X to install it.
+1. Select the `savemgr.vpk`and press X to install it.
+1. **PS TV Only:** Select the `AntiBlacklist.vpk`and press X to install it
+1. Exit VitaShell.
 
-If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, now is the time to [restore your NAND backup](godmode9-usage#nand_restore) before doing this section.
-{: .notice--danger}
+##### Section III - Installing Adrenaline.
 
-If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
-{: .notice--info}
+1. Launch Adrenaline.
+1. Press X to download the 661.PBP file.
+1. Once Adrenaline exits, relaunch it.
+1. Press X to install the 6.61 ePSP Firmware.
+1. Once it has installed, press X to boot the PSP XMB.
+1. Follow the PSP setup.
+1. Hold the PS Button and select 'Settings'.
+1. Choose 'Exit PspEmu Application'.
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*KERNEL``: ``ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx``.
 
-1. Aktualisiere deinen 3DS, indem zu zu den Systemeinstellungen gehst, dann "Allgemeine Einstellungen" auswählst und dann "System-Update" startest
-  + Updates mit B9S + Luma (welches du hast) sind sicher
-  + Wenn eine Fehlermeldung auftaucht, musst du in den DNS-Einstellungen die Option "Ja" auswählen, wenn du gefragt wirst, ob die DNS automatisch bezogen werden soll
-  + If this still gives you an error and your NAND is below 9.2.0, [follow 9.2.0 CTRTransfer](9.2.0-ctrtransfer), then try updating again
+##### Section IV - Setting up Download Enabler
 
-##### Section IV - Injecting FBI
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*main``: ``ux0:tai/download_enabler.suprx``.
 
-1. Reboot holding (Start) during boot to launch GodMode9
-1. Navigiere zu `[0:] SDCARD` ->` cias`
-1. Drücke (A) auf der `FBI.cia`-Datei, um diese auszuwählen. Wähle dann "CIA Image options..." und dann "Mount Image to drive"
-1. Drücke (A) auf der `.app`-Datei, dann wähle "NCCH Image options" und danach wählst du "Inject to H&S"
-1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
-1. Drücke (A) um fortzufahren
-1. Drücke (Start) um deinen 3DS neu zu starten
-1. Wenn du noch immer die normale Gesundheits & Sicherheitsinformationen-Applikation siehst und bereits zuvor mit einer Gateway-Flashcard deine Konsole gedowngradet hast, dann [folge dieser Anleitung zur Fehlerbehebung](troubleshooting#gw_fbi)
+##### Section V - PS TV ONLY: Setting up AntiBlacklist
 
-##### Section V - Installing CIAs
+1. (TODO: need to find someone with a pstv to help with this or just buy a pstv myself)
 
-1. Starte die Gesundheits & Sicherheitsinformationen-Anwendung (Welche jetzt FBI ist.)
-1. Navigiere zu `SD` -> `cias`
-1. Wähle "\<current directory>"
-1. Select the "Install and delete all CIAs" option, then press (A) to confirm
-1. Drücke (HOME), um FBI zu verlassen
+##### Section VI - Cleaning up
 
-##### Section VI - DSP Dump
-
-1. DSP1 starten
-1. Once it has completed, press (B) to self-delete the app and return to the home menu
-
-##### Section VII - Restore Health and Safety
-
-1. Reboot holding (Start) during boot to launch GodMode9
-1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Wähle "More..."
-1. Wähle "Restore H&S"
-1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
-
-##### Section VIII - CTRNAND Luma3DS
-
-1. Drücke (B), um zum Hauptmenü zurückzukehren
-1. Navigiere zu `[0:] SDCARD`
-1. Press (Y) on `boot.firm` to copy it
-1. Drücke (B), um zum Hauptmenü zurückzukehren
-1. Navigiere zu `[1:] SYSNAND CTRNAND`
-1. Press (Y) to paste a copy of `boot.firm`
-1. Wähle "Copy path(s)" aus
-1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
-1. Drücke (B), um zum Hauptmenü zurückzukehren
-1. Navigiere zu `[0:] SDCARD`
-1. Press (Y) on the `luma` folder to copy it
-1. Drücke (B), um zum Hauptmenü zurückzukehren
-1. Navigate to `[1:] SYSNAND CTRNAND` -> `rw`
-1. Press (Y) to paste a copy of the `luma` folder from your SD card
-
-##### Section IX - NAND Backup
-
-1. Drücke zweimal (B), um zurück in das Hauptmenü zu gelangen
-1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Wähle "More..."
-1. Wähle "Backup NAND"
-1. Drücke (A) um fortzufahren
-1. Drücke (R) und (B) gleichzeitig um die SD-Karte auszuwerfen
-1. Stecke deine SD-Karte in deinen Computer
-1. Kopiere `nand.bin` aus dem` / gm9out / `-Ordner auf deiner SD-Karte an einen sicheren Ort auf deinem Computer
-  + Erstelle Backup Dateien an mehreren Orten (USB-Stick, PC, Externe Festplatte, Online-Speicher, etc.)
-  + Diese Sicherheitskopie wird dich vor einem Brick schützen, falls in der Zukunft etwas schief gehen sollte
-1. Lösche "nand.bin" aus dem "/gm9out/" Ordner deiner SD-Karte, nachdem du sie auf den Computer kopiert hast-
-1. Stecke deine SD-Karte nun wieder in deinen 3DS
-1. Drücke (Start) zum Speichern und neustarten
+1. You may now delete the ``.vpk`` files from the ``ux0:`` folder on your Vita.
 
 ___
 
-{% capture notice-10 %}
-Ab jetzt kannst du den Luma 3DS Updater verwenden, um Luma3DS auf dem neuesten Stand zu halten. Dafür drücke einfach den (A)-Knopf nach dem Öffnen des Updaters.     
-Das ist nicht das gleiche wie ein System-Update; der Updater lädt nur die neuesten Dateien für Luma3DS herunter.
-Dies aktualisiert nur die Luma3DS-Dateien auf der SD-Karte. Wenn du die Konsole ohne die SD-Karte startest, wird die Version verwendet, die du in den CTRNAND kopiert hast.    
-{% endcapture %}
-
-<div class="notice--info">{{ notice-10 | markdownify }}</div>
-
 {% capture notice-6 %}   
-Beim einschalten wird nun standartmäßig Luma3DS CFW SysNAND gebootet.    
-Du kannst nun (Select) beim Starten halten, um das Luma3DS Konfigurationsmenü zu öffnen.    
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
+You will now have homebrew access every time you power on your Vita.
+TaiHEN plugins will now be loaded at boot, you can disable plugin loading by holding L during boot.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-To use [NTR CFW](https://github.com/44670/BootNTR/), install [BootNTR Selector](https://gbatemp.net/threads/432911/).
-{: .notice--info}
 
-{% capture notice-7 %}
-Entfernen Sie alle zusätzlichen Dateien und Ordner aus dem Stammverzeichnis der SD-Karte, die * nicht * in der folgenden Abbildung vorhanden sind:
-<br><br>
-![]({{ base_path }}/images/screenshots/final-file-layout.png)
-{% endcapture %}
-
-<div class="notice--info">{{ notice-7 | markdownify }}</div>
-
-Für Informationen über das Ändern der Region der Konsole, siehe dir [Wechseln der Region](region-changing) an.
+For information on using MaiDumpTool to dump and install your games, check out the [MaiDumpTool Usage](maidumptool-usage) page.
 {: .notice--success}
 
-Für mehr Informationen über die Verwendung von GodMode9's verschiedenen Funktionen, schaue hier: [Verwendung von GodMode9](godmode9-usage).
-{: .notice--success}
-
-Informationen, wie du die verschiedenen Funktionen von Luma3DS nutzen kannst, findest du auf der entsprechenden [Wiki-Seite](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
-{: .notice--success}
-
-Für Informationen zur Installation von benutzerdefinierten Designs Abzeichen und Splash-Screens, schauen Sie sich [3dsthem.es] (https://3dsthem.es/about.php).
+For information on the SD2Vita, the cartridge slot MicroSD Adapter check out the [SD2Vita Information and Setup](sd2vita-info-setup) page.
 {: .notice--success}
