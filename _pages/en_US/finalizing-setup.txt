@@ -34,7 +34,7 @@ During this process, we will setup programs such as the following:
 1. Connect to your Vita using your FTP Client.
 1. Copy `MaiDumpTool_Vxxx.xxxx_eng.vpk` to the `ux0:` folder on your Vita.
 1. Copy `TEMA.vpk` to the `ux0:` folder on your Vita.
-1. Copy `AdrenalineEasyInstaller_vXXX.vpk` to the `ux0:` folder on your Vita.
+1. Copy `Adrenaline.vpk` to the `ux0:` folder on your Vita.
 1. Copy `savemgr.vpk` to the `ux0:` folder on your Vita.
 1. **PS TV Only:** Copy `AntiBlacklist.vpk` to the `ux0:` folder on your Vita.
 
@@ -56,8 +56,15 @@ During this process, we will setup programs such as the following:
 
 ##### Section III - Installing Adrenaline.
 
-1. TODO: Follow the adrenaline installer steps and write up a guide
-
+1. Launch Adrenaline.
+1. Press X to download the 661.PBP file.
+1. Once Adrenaline exits, relaunch it.
+1. Press X to install the 6.61 ePSP Firmware.
+1. Once it has installed, press X to boot the PSP XMB.
+1. Follow the PSP setup.
+1. Hold the PS Button and select 'Settings'.
+1. Choose 'Exit PspEmu Application'.
+1. Add the following line to ``ux0:tai/config.txt`` under the line ``*KERNEL``: ''ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx''
 1. **TODO:** finish this section
 
 ##### Section IV - Setting up Download Enabler
