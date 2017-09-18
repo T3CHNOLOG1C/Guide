@@ -16,8 +16,6 @@ main:
     title: Смена региона
   - 
     title: Использование GodMode9
-  - 
-    title: Навигация по сайту
 bottom:
   - 
     title: 'Для поддержки на английском языке обратитесь за помощью сюда <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
