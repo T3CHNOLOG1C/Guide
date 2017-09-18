@@ -1,50 +1,25 @@
 ---
-title: "從頭開始"
+title: "Get Started"
 ---
 
-本頁面將帶領您安裝 boot9strap 至*原廠尚未改機*的 3DS 或 2DS 上。 如果您先前已經安裝了 arm9loaderhax 而且您想要更新至 boot9strap，請依照[更新至 boot9strap](updating-to-boot9strap) 的步驟進行。
-{: .notice--primary}
 
-圖中主機的顏色可能與您的不一，請仔細觀察圖中的按鈕配置及特徵以確保您選擇的是正確的機型。
+The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
 {: .notice}
 
-請點擊對應您主機的圖片以帶您到相應的教學中。
+Click the image of your device to take you to the appropriate page.
 {: .notice--primary}
 
-不同的主機型號、系統版本、及區域皆有不同的步驟來安裝基於 boot9strap 的自製韌體。 下面一系列的頁面將會幫助您針對您的主機找到適合的開始方案。
+Different device models, versions, and regions will require different steps to achieve the end goal of HENkaku Ensō or ePSP Homebrew. This page will help you find where to start for your device.
 {: .notice--info}
 
-如果您之前就有改過您的 3DS，且已經安裝了基於 EmuNAND 的自製韌體，請在 SysNAND 上進行本教學的所有操作。 您的資料最終將會從 EmuNAND 移植到您新的 B9S 系統上。
+Note that screenshots in this guide can be enlarged to show more context by clicking on them.
 {: .notice--info}
 
-請注意，本手冊中的截圖可輕觸放大。
+Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-在開始之前，Windows 使用者應該先透過[顯示副檔名 (Windows)](file-extensions-(windows))教學將副檔名顯示！
-{: .notice--info}
 
-在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
-{: .notice--warning}
 
-請注意新的[安裝 boot9strap（透過硬改）](installing-boot9strap-(hardmod))方法對*所有主機、 地區和版本*皆有效！ 這包括了以前無法破解的中版和台版地區主機！
-{: .notice--success}
-
-{% capture notice-1 %}
-近日有許多的自製韌體用戶已經被任天堂封殺，幾乎所有的線上功能都被禁止使用。 為了自保，請在遵循本教學前進行以下防護措施：
-
-1. 進入「系統設定（System Settings）」、「網路設定（Internet Settings）」、「SpotPass」、「回傳系統訊息（Sending of System Information）」
-1. 禁用「回傳系統訊息（Sending of System Information）」
-1. 退出系統設定
-1. 進入好友選單（HOME 主選單最上面長得像臉的按鈕）
-  + 如果你遇到了錯誤訊息且無法進入選單中，這表示您的好友選單已被禁用
-1. 進入好友選單設定、「好友提示設定（Friend Notification Settings）」、「顯示正在遊玩的遊戲（Show friends what you're playing）」
-1. 禁用「顯示正在遊玩的遊戲（Show friends what you're playing）」
-1. 退出好友清單
-
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-1 | markdownify }}</div>
-
-| New 3DS | 舊型 3DS 或 2DS |
+| PSTV | PS Vita or PS Vita Slim |
 |:-:|:-:|
-| [![New 3DS](/images/new3ds.png)](get-started-(new-3ds)) <br><br> [![New 3DS XL](/images/new3dsxl.png)](get-started-(new-3ds)) | [![舊型 3DS](/images/old3ds.png)](get-started-(old-3ds)) &nbsp;&nbsp; [![舊型 3DS XL](/images/old3dsxl.png)](get-started-(old-3ds)) <br><br> [![2DS](/images/2ds.png)](get-started-(old-3ds)) |
+| [![PS TV](/images/pstv.png)](get-started-(PSTV)) | [![PS Vita](/images/vita_phat.png)](get-started-(vita)) <br><br> [![PS Vita Slim](/images/vita_slim.png)](get-started-(vita)) |

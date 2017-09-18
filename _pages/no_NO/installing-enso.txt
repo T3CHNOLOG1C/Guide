@@ -1,0 +1,45 @@
+---
+title: "Installing HENkaku Ensō"
+---
+
+Henkaku Ensō is a "Permanent Hack" for the PS Vita. It starts HENkaku at boot-time so there will be no need to use the Browser exploit.
+{: .notice--info}
+
+On this page we will install Ensō.
+{: .notice--info}
+
+**You MUST have already ran HENkaku to use this.**
+{: .notice--danger}
+
+#### What you need
+
+* The latest release of [Henkaku Ensō](http://enso.henkaku.xyz/)
+* An internet connection on your Vita
+
+#### Instructions
+
+##### Section I - Prep Work
+
+1. Download the Henkaku Ensō VPK 
+1. Copy the ``enso.vpk`` to ``ux0:data`` using your prefered method of data transfer. 
+
+##### Section II - Installing Ensō
+
+1. Make sure HENkaku is running on your Vita.
+1. Open molecularShell on your Vita and press start.
+1. Select "Configure HENkaku in Settings application".
+1. Disable ``PSN Spoofing`` and ``Version Spoofing``.
+1. Reboot your console and run HENkaku
+1. Navigate to the ``ux0:data`` folder on your Vita.
+1. Install the ``enso.vpk`` file.
+1. Launch the ``ensō`` bubble.
+1. Press ⭕ after reading the terms to accept.
+1. Press X to begin the installation.
+1. Allow the various checks to finish and the installation to complete.
+  + If you get an message about os0: modification, [follow this troubleshooting guide](troubleshooting#ts_os0-modification)
+1. Press any key to reboot your Vita.
+
+___
+
+Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}

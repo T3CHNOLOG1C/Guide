@@ -1,78 +1,60 @@
 ---
 layout: splash
-title: "מדריך ל3DS" #
+title: "Vita Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "צעדים ראשונים" #
-  cta_url: "/he_IL/get-started" #
+  cta_label: "Get Started" #
+  cta_url: "get-started" #
   caption:
-excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9strap.<br />"
+excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku Ensō.<br />"
 ---
 
 {% capture notice-home %}
-המדריך הזה הוא לקונסולות קמעוניות (כאלו שנקנו בחנות; לא כאלה מתוכנית המפתחים) בלבד!    
-אם יש לכם קונסולת מפתחים, לכו ל[devGuide](https://dev.3ds.guide).
+This guide is for retail (consumer purchased; not from the Playstation Developer Program) consoles _only_!    
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-המדריך הזה צריך את העזרה *שלכם* כדי [לתרגם](https://translate.3ds.guide/)אותו לשפות אחרות!
-{: .notice--success}
 
-המדריך הזה צריך את העזרה *שלכם* בשביל סיד ל[טורנטים הבאים](https://3ds.guide/rss.xml)!
-{: .notice--success}
-
-תקראו את כל הדפים המקדימים לפני שאתם ממשיכים.
+Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
-## מה זה Homebrew?
+## What is Homebrew?
 
-המונח [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) מתייחס בדרך כלל לתוכנה שאינה מאושרת על ידי נינטנדו. זה מאפשר לכם להפעיל משחקי homebrew, כלים כמו עריכת וגיבוי שמירות, ואמולטורים למערכות יותר ישנות.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-ברוב המקרים, הפעלת homebrew על הקונסולה היא 100% חינמית באמצעות [רק נגן המוזיקה](homebrew-launcher-(soundhax)). יש גם מגוון אקספלויטים אחרים במשחקים מסחריים ובדפדפן כדי לפעיל homebrew.
+Running homebrew on your device is 100% free using [just the PS Vita's Web browser](running-henkaku).
 
-## מהו קושחה מותאמת אישית?
+## What is a Homebrew Enabler?
 
-**קושחה מותאמת אישית** ("CFW") מאפשרת לכם שליטה יותר מתקדמת ואפשרות להאקים מתקדמים ש- homebrew פשוט לא יכול להפעיל. לדוגמה, מוד של הקושחה מאפשר לכם להתקין משחקים, אפליקציות ו- homebrew לא חתומים.
+**Homebrew Enabler** ("HEN") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned apps that appear right on your LiveArea screen.
 
-ניתן בקלות להגדיר CFW על כל קונסולה בגרסה 11.4.0 או נמוכה יותר.
+HEN can be easily set up on any console that is on 3.60 or lower.
 
-## מה המדריך הזה מתקין?
+## What does this guide install?
 
-למדריך זה יש את היעד הסופי של לקחת 3DS חדש לחלוטין שלא שונה בכלל מקושחה רשמית
-לקושחה מותאמת אישית מבוססת boot9strap. על גירסאות מסוימות, הוא מנצל homebrew פשוט כנקודת המוצא, אבל קושחה מותאמת אישית היא עדיין המטרה.
+This guide has the end goal of taking a completely unmodified Vita from stock firmware to a Homebrew Enabler called HENkaku.
 
-boot9strap היא השיטה הטובה ביותר והעדכנית של הפעלת קושחה מותאמת אישית שנותנת לנו שליטה כמעט מלאה של המערכת, מילישניות אחרי ההפעלה - כמו BootMii לWii. זה נותן לנו גישה עוד יותר מוקדמת מאשר מה שarm9loaderhax נתן, ובניגוד לsighax סטנדרטי, arm9loaderhax משתמש בפירצת שכתוב NDMA כדי להשיג הפעלת קוד בBoot9. זה אומר שכל קונסולה שמריצה את boot9strap מסוגלת להשיג את הOTP המיוחד לכל קונסולה (שהוא`OTP.bin`), הbootrom של ה ARM11 (שהוא`boot11.bin`), והbootrom של ה ARM9 (שהוא `boot9.bin`).
+HENkaku is currently the only feasible method for running homebrew on our PS Vita / TV systems. It will install an application that can be used to install packages and manage files called "molecularShell" which we will use to install "VitaShell", another package / file manager with more features. We will also install an offline version of HENkaku that takes advantage of the same browser exploit used by HENkaku in the email app. It gives us a way to run HENkaku even when our console is not connected to the internet.
 
-היתרונות של bootrom מול כל שיטות ההפעלה האחרות של קושחות מותאמות אישית הן רבות, ובגלל זה מומלץ להשתמש במדריך זה על פני אחרים שמסתמכים על תוכנה מיושנת (כגון menuhax + rxTools, arm9loaderhax, או אפילו sighax סטנדרטי).
+For information on how HENkaku works, please see [this blog post](https://yifan.lu/2016/10/20/henkaku-koth-solved/) by [Yifan Lu](https://twitter.com/yifanlu).
 
-למידע על איך boot9strap עובד, בבקשה תראו את [המצגת הבאה](https://sciresm.github.io/33-and-a-half-c3/) על ידי [SciresM](https://github.com/SciresM/).
+## What can I do with a Homebrew Enabler?
 
-לרשימת כל החתימות של sighax (הפלטפורמה שboot9strap בנוי עליה), תראו [את הgist הבא](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
++ Customize your LiveArea Screen with user-created [themes](http://vstema.com/).
++ Use "ROM hacks" for games that you own
++ [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
++ Dump your game cards to a format you can install, and play them without needing the card.
++ Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
++ Play backups of your PSP games on your Vita with Adrenaline ePSP CFW
 
-## מה אני יכול לעשות עם קושחה מותאמת אישית?
+## What do I need to know before starting?
 
-+ לשחק כל את כל המשחקים הפיזים ומה- eShop, ללא קשר לאזור המכשיר
-+ התאמה אישית של תפריט הבית עם [ערכות נושא](https://3dsthem.es/), [סימנים](https://badges.3dsthem.es/), ו[מסכי עליה](https://splash.3dsthem.es/) שהוכנו על ידי משתמשים
-+ לשחק ב- "ROM hacks" עבור משחקים שיש לכם
-+ לצלם מסך
-+ [גיבוי, עריכה ושחזור](https://gbatemp.net/threads/413143/) של שמירות של הרבה משחקים
-+ לשחק משחקים עבור מערכות ישנות יותר עם אמולטורים שונים, באמצעות RetroArch או אמולטורים עצמאים אחרים. (עובד הכי טוב עם 3DS מהדגם החדש - New 3DS)
-+ התקנת homebrew למערכת שלכם, ככה שהם יופיעו בתפריט הבית שלכם
-+ לחלץ את המשחקים הפיזים שלכם ולשחק בהם ללא הכרטיס
-+ רק ב- New 3DS: צילום וידיאו של מסך ושליחתו אל-חוטית למחשב שלכם
-+ להריץ כרטיסי פריצה ישנים ל- nds שנחסמו או שאף פעם לא עבדו על ה- 3DS
-+ לעדכן את המערכת בבטחה, ללא חשש איבוד הגישה ל- Homebrew
-
-## מה עלי לדעת לפני שמתחילים?
-
-+ **לפני תחילת המדריך, אתם חייבים לדעת את הסיכונים של פריצת 3DS: בכל פעם שתשנו את המערכת שלכם, תמיד יש הפוטנציאל** לבריק בלתי הפיך. הם נדירים, אבל עדיין אפשרות לקבל אותם אז תקפידו לעקוב אחרי השלבים במדיוק.**
-+ אם ה- 3DS שלכם כבר פרוץ עם Emunand ואתם רוצים להעביר את מה שיש עליו ל- Sysnand, עקבו אחרי כל ההוראות ולכו למקום המתאים כשאתם ב [סיום התהליך](finalizing-setup).
-+ המדריך הזה יעבוד על כל New 3DS, Old 3DS ו- 2DS בכל האזורים על הגרסה 11.4.0 ומתחתיה.
-+ אם הכול ילך לפי התוכנית, לא תאבדו נתונים ותסיימו עם כל מה שהתחלתם (משחקים, NNID, שמירות, ועוד).
-+ ** תשמרו על המכשיר מחובר לחשמל וטעון לאורך כל התהליך כדי למנוע אובדן נתונים או נזק מכיבוי בלתי צפוי! **
-+ ה- SD שלכם צריך להיות [MBR, לא GPT](http://www.howtogeek.com/245610/) (כרטיס ה- SD שמגיע עם המכשיר יהיה MBR כברירת מחדל).
-+ אם אתם צריכים לפרמט כרטיס SD חדש, תשתמשו ב ['guiformat'](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) ותגדירו Allocation unit size של 32K.
-+ ה2DS זהה במהותו לOld 3DS מבחינת תוכנה, כל הצעדים שאומרים "Old 3DS" מתקיימים גם ב2DS. עם זאת, ישנן הערות ספציפיות ל2DS.
++ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files.**
++ This guide will work on PS Vita, PS Vita Slim, and PSTV in all regions on firmware 3.60 or below.
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
++ **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
++ The PS Vita Slim is essentially identical to the Original PS Vita in terms of software, and that any steps which say "PS Vita" also apply to the slim model.

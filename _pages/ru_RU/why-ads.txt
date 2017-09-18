@@ -1,15 +1,6 @@
 ---
-title: "Зачем реклама?" #
+title: "Why Ads?" #
 layout: single-no-ads
 ---
 
-Этот проект - результат тысяч часов непрерывной работы.
-
-Я бесплатно поддерживаю это руководство в актуальном состоянии. Из-за этого я считаю, что это справедливо пытаться получить скудный доход от моей работы.
-
-Использование этого сайта бесплатно для вас, и вся реклама на сайте не мешает его использовать. Если она вам мешает, можете смело её блокировать.
-
-Если вы блокируете рекламу, то не забывайте про пожертвования на этой странице: [Donations](donations); впрочем, и это необязательно.
-
-С уважением,<br>
-Plailect
+I have not gotten around to disabling the ads yet, they currently belong to Plailect since this is a fork of his guide. I will probably add ads of my own later, so please dont have adblock enabled.

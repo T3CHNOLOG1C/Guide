@@ -4,56 +4,41 @@ title: "FAQ"
 
 {% capture notice-1 %}
 
-<a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
-**R:** Sì
+<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
+**A:** Yes, but not natively, we can, however, hack the PSP Emulator within the Vita (ePSP)
 <br><br>
-<a name="faq_updatecfw" />**D:** *Come aggiorno Luma3DS?*    
-**R:** Usa Luma3DS Updater
+<a name="faq_updatecfw" />**Q:** *How do I update HENkaku?*    
+**A:** TODO: Figure out if its just run henkaku via browser or reinstall enso?
 <br><br>
-<a name="faq_gatewaysky" />**D:** *Ho sentito di questa cosa per cui dovrei pagare (Gateway, Sky3DS, ecc), è qualcosa che mi serve?*    
-**R:** No. boot9strap permette il caricamento di file prima ancora dell'avvio del sistema e dà il via libera per esempio ad un vero custom firmware.
+<a name="faq_need" />**Q:** *What do I need to do this guide?*    
+**A:** This guide can be completely done with free software.
 <br><br>
-<a name="faq_gatewaysaves" />**D:** *Come faccio a spostare i salvataggi da un setup Gateway esistente ai giochi installati nella console?*    
-**R:** Guarda [qui](https://gbatemp.net/threads/425743/)
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricks are relatively rare if you know what you are doing and don't modify critical system files.
 <br><br>
-<a name="faq_need" />**D:** *Di cosa ho bisogno per seguire questa guida?*    
-**R:** Questa guida può essere completata utilizzando esclusivamente software gratuiti
+<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+**A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
-<a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*    
-**R:** Allo stato attuale è *praticamente impossibile* brickare la console a meno di ignorare volontariamente tutte le misure di sicurezza.
+<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
+**A:** No. You will lose access to HENkaku
 <br><br>
-<a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*    
-**R:** Sì! Un Custom Firmware non solo ti permette di avviare l'Homebrew Launcher, ma le funzionalità aggiuntive permangono anche dopo un aggiornamento di sistema.
+<a name="faq_support" />**Q:** *Where should I go for support?*    
+**A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
 <br><br>
-<a name="faq_regionfree" />**D:** *Potrò giocare a giochi comprati all'estero?*    
-**R:** Luma3DS supporta le patch Region Free, che permettono agli utenti di installare e giocare senza problemi a giochi provenienti da altre parti del mondo.
+<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB Memory Card?*    
+**A:** Yes!
 <br><br>
-<a name="faq_updates" />**D:** *È sicuro aggiornare un CFW SysNAND?*    
-**R:** Sì. È sicuro, e ora basta chiederlo.
+<a name="faq_movesd" />**Q:** *How do I move to a Memory Card at the end of this?* 
+**A:** TODO: write page on how to do this.
 <br><br>
-<a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
-**R:** Se hai bisogno di aiuto, chiedi pure su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese).
+<a name="faq_NNID" />**Q:** *Can I keep my PSN Account?*    
+**A:** If you start with an PSN Account and follow every step, you will end up keeping your PSN Account at the end.
 <br><br>
-<a name="faq_le4gbsd" />**D:** *Posso utilizzare una scheda SD da 4GB (o minore)?*    
-**R:** Sì!
+<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+**A:** All you need is the ability to use an FTP Client.
 <br><br>
-<a name="faq_ge128gbsd" />**D:** *Posso utilizzare una scheda SD da 128GB (o maggiore)?*    
-**R:** Sì, ma alcuni utenti hanno segnalato rallentamenti con schede di dimensioni così elevate. Ricorda anche che non puoi formattare la scheda in exFAT; devi formattarla in FAT32.
-<br><br>
-<a name="faq_movesd" />**D:** *Come posso passare a una nuova scheda SD al termine della guida?*    
-**R:** Copia semplicemente tutti i file sulla nuova scheda SD.
-<br><br>
-<a name="faq_NNID" />**D:** *Posso mantenere il mio NNID?*    
-**R:** Se parti con un NNID assegnato e segui correttamente ogni passaggio, al termine della guida avrai mantenuto il tuo NNID originale.
-<br><br>
-<a name="faq_systransfer" />**D:** *Posso eseguire un Trasferimento dati?*    
-**R:** Una volta completata la guida, potrai effettuare un Trasferimento dati da e verso un 3DS o 2DS con B9S esattamente come lo avresti fatto con una console normale o con EmuNAND (perderai tutti i giochi/temi/DLC installati illegalmente; i salvataggi verranno però mantenuti anche se i giochi verranno cancellati).
-<br><br>
-<a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer a disposizione (ad esempio, da un telefono Android)?*    
-**R:** Sì, a patto che tu abbia modo di trasferire file sulla scheda SD!
-<br><br>
-<a name="faq_problem" />**D:** *Aiuto! È successo qualcosa di brutto e ora la console non si avvia più...*    
-**R:** Consulta la sezione [Risoluzione dei problemi](troubleshooting).
+<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
+**A:** Please look at the [troubleshooting guide](troubleshooting).
 
 {% endcapture %}
 
