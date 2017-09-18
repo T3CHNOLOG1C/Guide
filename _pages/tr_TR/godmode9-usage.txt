@@ -18,26 +18,26 @@ The write permissions system protects you by providing warnings and forces you t
 
 ## <a name="nand_backup" /> Creating a NAND Backup
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
 1. Press (Home) to bring up the action menu
 1. Select "More..."
 1. Select "Backup NAND"
-1. Devam etmek için (A) basın
-1. SD kartınızı çıkarmak için aynı anda (R) ve (B) ye basın ve basılı tutun
-1. SD kartınızı bilgisayarınıza takın
+1. Press (A) to continue
+1. Hold (R) and press (B) at the same time to eject your SD card
+1. Insert your SD card into your computer
 1. Copy `nand.bin` from the `/gm9out/` folder on your SD card to a safe location on your computer
   + If you previously used SafeCTRTransfer and have a NAND backup named `<serialnumber>_nand.bin`, replace it with this one (rename `nand.bin` to match `<serialnumber>_nand.bin`)
   + Make backups in multiple locations (such as online file storage)
-  Bu yedek eğer ileride bir şey ters giderse cihazın brick olma ihtimalini engelleyecek
+  + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `nand.bin` from the `/gm9out/` folder on your SD card after copying it
-1. SD kartınızı cihazınıza tekrar takın
+1. Reinsert your SD card into your device
 
 ## <a name="nand_restore" /> Restoring a NAND Backup
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -56,7 +56,7 @@ The write permissions system protects you by providing warnings and forces you t
 + For organizational purposes, copy the `.cia` file you wish to inject to the `/cias/` folder on your SD card
     + Note that it is not possible to inject files into Health & Safety that are larger than it (including games and other large applications)
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -64,14 +64,14 @@ The write permissions system protects you by providing warnings and forces you t
 1. Press (A) on your `.cia` to select it, then select "CIA image options...", then select "Mount image to drive"
 1. Press (A) on the `.app` file, then select "NCCH image options", then select "Inject to H&S"
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Devam etmek için (A) basın
+1. Press (A) to continue
 
 ## <a name="restore_hs" /> Restoring Health & Safety after injecting a .CIA app
 
 This will only work if the Health & Safety injection was performed by GodMode9 (not Decrypt9 or Hourglass9).
 {: .notice--info}
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -88,7 +88,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
     + 3DS game cartridges will be dumped to an installable `.cia` format
     + NDS game cartridges will be dumped to a non-installable `.nds` format compatible with flashcarts and emulators
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -103,7 +103,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 Use the `Titles` menu in FBI to get the Title ID of the installed title you wish to dump
 {: .notice--info}
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -127,7 +127,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 + For organizational purposes, copy each `.3ds` file you wish to convert to the `/cias/` folder on your SD card
     + Note that if you wish to convert a `.3ds` file that is already on a flashcart, you should follow [Dumping a Game Cartridge](#dump_cart)
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
@@ -137,12 +137,12 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 ## <a name="backup_gba" /> Backup GBA VC Saves
 
-#### Talimatlar
+#### Instructions
 
-1. Cihazınızı kapatın
-1. SD kartınızı bilgisayarınıza takın
+1. Power off your device
+1. Insert your SD card into your computer
 1. Create a folder in `/files9/` for each GBA VC game that you want to backup the save for
-1. SD kartınızı cihazınıza tekrar takın
+1. Reinsert your SD card into your device
 1. Power on your device
 1. Do the following process for each GBA VC game that you want to backup the save for:
   + Launch the GBA VC game
@@ -159,7 +159,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 ## <a name="restore_gba" /> Restore GBA VC Saves
 
-#### Talimatlar
+#### Instructions
 
 1. Ensure you have a folder containing a save in `/files9/` for each GBA VC game that you want to restore the save for
 1. Do the following process for each GBA VC game that you want to restore the save for:
@@ -181,16 +181,16 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 **Note that this will erase the contents of your SD card!**
 {: .notice--danger}
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
 1. Press (Home) to bring up the action menu
 1. Select "More..."
-1. "SD format menu" seçin
+1. Select "SD format menu"
 1. Select any EmuNAND options you wish to use
   + Most users will want to select "No EmuNAND"
-1. "Auto" seçin
+1. Select "Auto"
 1. Press (A) to accept the label `GM9SD`
   + Optionally, you may input a custom name for the SD card
 1. When prompted, input the key combo given to confirm
@@ -201,7 +201,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 + For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 
-#### Talimatlar
+#### Instructions
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
