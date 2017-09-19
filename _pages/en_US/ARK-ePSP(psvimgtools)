@@ -1,0 +1,44 @@
+---
+title: "Installing ARK ePSP CFW"
+---
+
+ARK is a custom firmware for the PSP emulator (ePSP) within the Vita. The exploit used by ARK only works on Vita firmware versions 3.61-3.63, as the ePSP kernel exploit was patched in 3.65
+{: .notice--info}
+
+On this page we will install ARK.
+{: .notice--info}
+
+#### What you need
+
+* A PSP game downloaded on your Vita.
+* The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
+* The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
+* The 
+
+#### Instructions
+
+##### Section I - Prep Work
+
+1. Download the Henkaku Ensō VPK 
+1. Copy the ``enso.vpk`` to ``ux0:data`` using your prefered method of data transfer. 
+
+##### Section II - Installing Ensō
+
+1. Make sure HENkaku is running on your Vita.
+1. Open molecularShell on your Vita and press start.
+1. Select "Configure HENkaku in Settings application".
+1. Disable ``PSN Spoofing`` and ``Version Spoofing``.
+1. Reboot your console and run HENkaku
+1. Navigate to the ``ux0:data`` folder on your Vita.
+1. Install the ``enso.vpk`` file.
+1. Launch the ``ensō`` bubble.
+1. Press ⭕ after reading the terms to accept.
+1. Press X to begin the installation.
+1. Allow the various checks to finish and the installation to complete.
+  + If you get an message about os0: modification, [follow this troubleshooting guide](troubleshooting#ts_os0-modification)
+1. Press any key to reboot your Vita.
+
+___
+
+Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}
