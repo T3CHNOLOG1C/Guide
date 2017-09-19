@@ -19,21 +19,19 @@ title: "FAQ"
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
-<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
-
+<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*     
 **A:** No. You will lose access to HENkaku
 <br><br>
 <a name="faq_support" />**Q:** *Where should I go for support?*    
 **A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
 <br><br>
-<a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB Memory Card?*    
+<a name="faq_le4gbmc" />**Q:** *Can I do this with a 4GB Memory Card?*    
 **A:** Yes!
 <br><br>
-<a name="faq_movesd" />**Q:** *How do I move to a Memory Card at the end of this?* 
-
+<a name="faq_movemc" />**Q:** *How do I move to a bigger Memory Card at the end of this?*      
 **A:** TODO: write page on how to do this.
 <br><br>
-<a name="faq_NNID" />**Q:** *Can I keep my PSN Account?*    
+<a name="faq_PSN" />**Q:** *Can I keep my PSN Account?*    
 **A:** If you start with an PSN Account and follow every step, you will end up keeping your PSN Account at the end.
 <br><br>
 <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
