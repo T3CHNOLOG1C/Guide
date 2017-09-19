@@ -13,14 +13,17 @@ On this page we will install ARK.
 * A PSP game downloaded on your Vita.
 * The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
-* The 
+* The [ARK PBOOT bubble](http://www.mediafire.com/file/rfqhsjuvs6ax6co/FW360_ARK_pboot_bubble.zip).
 
 #### Instructions
 
 ##### Section I - Prep Work
 
-1. Download the Henkaku Ensō VPK 
-1. Copy the ``enso.vpk`` to ``ux0:data`` using your prefered method of data transfer. 
+1. Download and Install QCMA and set up the connection between QCMA and your Vita.
+1. Get your PSN AID. By default, on Windows it will be located in ``C:/Users/Username/Documents/PS Vita/PGAME/xxxxxxxxxxxxxxxx/``. ``xxxxxxxxxxxxxxxx`` (will be a bunch of characters) is your PSN AID.
+1. Go to http://cma.henkaku.xyz/ and paste your PSN AID into the box.
+1. Copy the Key it's spits out and put it into a safe place. (Preferably in a text document called "AID KEY")
+1. Extract the psvimgtools archive for your OS. (Make sure to put the files somewhere where you'll remember them!)
 
 ##### Section II - Installing Ensō
 
