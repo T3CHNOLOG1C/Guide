@@ -20,6 +20,7 @@ title: "FAQ"
 **A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
 <a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
+
 **A:** No. You will lose access to HENkaku
 <br><br>
 <a name="faq_support" />**Q:** *Where should I go for support?*    
@@ -29,6 +30,7 @@ title: "FAQ"
 **A:** Yes!
 <br><br>
 <a name="faq_movesd" />**Q:** *How do I move to a Memory Card at the end of this?* 
+
 **A:** TODO: write page on how to do this.
 <br><br>
 <a name="faq_NNID" />**Q:** *Can I keep my PSN Account?*    
