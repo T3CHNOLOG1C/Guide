@@ -13,11 +13,11 @@ On this page we will install VHBL.
 * A PSP game downloaded on your Vita.
 * The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
-* The [ARK PBOOT bubble archive](http://www.mediafire.com/file/rfqhsjuvs6ax6co/FW360_ARK_pboot_bubble.zip).
+* The [VHBL files archive](https://mega.nz/#!4QoVGDRD!mx7_kCQ83-GKlrGrN8rUl5hpYQAlI1Pl7gWm2lsPeuQ).
 
 #### Instructions
 
-##### Section I - Installing ARK
+##### Section I - Installing VHBL
 
 1. Download and Install QCMA and set up the connection between QCMA and your Vita.
 1. Get your PSN AID. By default, on Windows it will be located in ``C:/Users/Username/Documents/PS Vita/PGAME/xxxxxxxxxxxxxxxx/``. ``xxxxxxxxxxxxxxxx`` (will be a bunch of characters) is your PSN AID.
@@ -31,12 +31,12 @@ On this page we will install VHBL.
 1. Navigate to the psvimgtools folder using ``cd``
 1. Type ``psvimg-extract -K YOUR-KEY game.psvimg`` (Windows) or ``./psvimg-extract -K YOUR-KEY game.psvimg game`` (macOS/Linux), replacing ``YOUR-KEY`` with the key you got from http://cma.henkaku.xyz/.
 1. You will get a folder with the name of ``ux0_pspemu_temp_game_PSP_GAME_ID``, ``PSP_GAME_ID`` will be the GAME ID of your PSP game.
-1. Extract the ARK PBOOT bubble archive and find the PBOOT.PBP
-1. Replace the PBOOT.PBP file in the folder of your extracted game (``ux0_pspemu_temp_game_PSP_GAME_ID``) with the ARK PBOOT.PBP
+1. Extract the VHBL PBOOT bubble archive and find the PBOOT.PBP
+1. Replace the PBOOT.PBP file in the folder of your extracted game (``ux0_pspemu_temp_game_PSP_GAME_ID``) with the VHBL PBOOT.PBP
 1. Type ``psvimg-create -n game -K YOUR-KEY game game`` (Windows) or ``./psvimg-create -n game -K YOUR-KEY game game`` (macOS/Linux), again replacing ``YOUR-KEY`` with the key you got from http://cma.henkaku.xyz/. This command will output a ``game.psvimg`` and a ``game.psvmd`` in the ``ux0_pspemu_temp_game_PSP_GAME_ID`` folder.
 1. Overwrite the files in the files in the QCMA Backup folder with these ones that you just generated.
 1. Restore the QCMA Backup of your PSP game after pasting the files.
-1. Copy the ARK_01234 folder from the ARK PBOOT bubble archive to /PSvita/PSAVEGAME/xxxxxxxxxxxxxxxx/. (xxxxxxxxxxxxxxxx is your PSN AID).
+1. Copy the ARK_01234 folder from the VHBL files archive to /PSvita/PSAVEGAME/xxxxxxxxxxxxxxxx/. (xxxxxxxxxxxxxxxx is your PSN AID).
 1. Restore the ARK-2 PSP SAVEDATA from your pc to your Vita using QCMA.
 
 ___
