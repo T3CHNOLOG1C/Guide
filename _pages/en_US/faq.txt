@@ -19,8 +19,7 @@ title: "FAQ"
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
-<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*
-
+<a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*<br>
 **A:** No. You will lose access to HENkaku
 <br><br>
 <a name="faq_support" />**Q:** *Where should I go for support?*    
