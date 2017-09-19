@@ -36,10 +36,10 @@ On this page we will install VHBL.
 1. Type ``psvimg-create -n game -K YOUR-KEY game game`` (Windows) or ``./psvimg-create -n game -K YOUR-KEY game game`` (macOS/Linux), again replacing ``YOUR-KEY`` with the key you got from http://cma.henkaku.xyz/. This command will output a ``game.psvimg`` and a ``game.psvmd`` in the ``ux0_pspemu_temp_game_PSP_GAME_ID`` folder.
 1. Overwrite the files in the files in the QCMA Backup folder with these ones that you just generated.
 1. Restore the QCMA Backup of your PSP game after pasting the files.
-1. Copy the ARK_01234 folder from the VHBL files archive to /PSvita/PSAVEGAME/xxxxxxxxxxxxxxxx/. (xxxxxxxxxxxxxxxx is your PSN AID).
-1. Restore the ARK-2 PSP SAVEDATA from your pc to your Vita using QCMA.
+1. Copy the VHBL01234 folder from the VHBL files archive to /PSvita/PSAVEGAME/xxxxxxxxxxxxxxxx/. (xxxxxxxxxxxxxxxx is your PSN AID).
+1. Restore the VHBL PSP SAVEDATA from your pc to your Vita using QCMA.
 
 ___
 
-Continue to [Finalizing Setup (ARK)](finalizing-setup(ARK))
+Continue to [Finalizing Setup (VHBL)](finalizing-setup(VHBL))
 {: .notice--primary}
