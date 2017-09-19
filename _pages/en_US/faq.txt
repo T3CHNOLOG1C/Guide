@@ -28,7 +28,7 @@ title: "FAQ"
 <a name="faq_le4gbmc" />**Q:** *Can I do this with a 4GB Memory Card?*    
 **A:** Yes!
 <br><br>
-<a name="faq_movemc" />**Q:** *How do I move to a bigger Memory Card at the end of this?*     
+<a name="faq_movemc" />**Q:** *How do I move to a bigger Memory Card at the end of this?*      
 **A:** TODO: write page on how to do this.
 <br><br>
 <a name="faq_PSN" />**Q:** *Can I keep my PSN Account?*    
