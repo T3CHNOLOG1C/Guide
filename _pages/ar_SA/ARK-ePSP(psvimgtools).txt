@@ -13,35 +13,33 @@ On this page we will install ARK.
 * A PSP game downloaded on your Vita.
 * The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
-* The [ARK PBOOT bubble](http://www.mediafire.com/file/rfqhsjuvs6ax6co/FW360_ARK_pboot_bubble.zip).
+* The [ARK PBOOT bubble archive](http://www.mediafire.com/file/rfqhsjuvs6ax6co/FW360_ARK_pboot_bubble.zip).
 
 #### Instructions
 
-##### Section I - Prep Work
+##### Section I - Installing ARK
 
 1. Download and Install QCMA and set up the connection between QCMA and your Vita.
 1. Get your PSN AID. By default, on Windows it will be located in ``C:/Users/Username/Documents/PS Vita/PGAME/xxxxxxxxxxxxxxxx/``. ``xxxxxxxxxxxxxxxx`` (will be a bunch of characters) is your PSN AID.
-1. Go to http://cma.henkaku.xyz/ and paste your PSN AID into the box.
+1. Go to [http://cma.henkaku.xyz/](http://cma.henkaku.xyz/) and paste your PSN AID into the box.
 1. Copy the Key it's spits out and put it into a safe place. (Preferably in a text document called "AID KEY")
 1. Extract the psvimgtools archive for your OS. (Make sure to put the files somewhere where you'll remember them!)
-
-##### Section II - Installing Ensō
-
-1. Make sure HENkaku is running on your Vita.
-1. Open molecularShell on your Vita and press start.
-1. Select "Configure HENkaku in Settings application".
-1. Disable ``PSN Spoofing`` and ``Version Spoofing``.
-1. Reboot your console and run HENkaku
-1. Navigate to the ``ux0:data`` folder on your Vita.
-1. Install the ``enso.vpk`` file.
-1. Launch the ``ensō`` bubble.
-1. Press ⭕ after reading the terms to accept.
-1. Press X to begin the installation.
-1. Allow the various checks to finish and the installation to complete.
-  + If you get an message about os0: modification, [follow this troubleshooting guide](troubleshooting#ts_os0-modification)
-1. Press any key to reboot your Vita.
+1. Backup a PSP game with QCMA.
+1. Find the game backup in /PSvita/PGAME/xxxxxxxxxxxxxxxx/[GAMEID]/game/game.psvimg
+1. Copy the game.psvimg to the psvimgtools folder.
+1. Open Command Prompt (Windows) or Terminal (macOS/Linux).
+1. Navigate to the psvimgtools folder using ``cd``
+1. Type ``psvimg-extract -K YOUR-KEY game.psvimg`` (Windows) or ``./psvimg-extract -K YOUR-KEY game.psvimg game`` (macOS/Linux), replacing ``YOUR-KEY`` with the key you got from http://cma.henkaku.xyz/.
+1. You will get a folder with the name of ``ux0_pspemu_temp_game_PSP_GAME_ID``, ``PSP_GAME_ID`` will be the GAME ID of your PSP game.
+1. Extract the ARK PBOOT bubble archive and find the PBOOT.PBP
+1. Replace the PBOOT.PBP file in the folder of your extracted game (``ux0_pspemu_temp_game_PSP_GAME_ID``) with the ARK PBOOT.PBP
+1. Type ``psvimg-create -n game -K YOUR-KEY game game`` (Windows) or ``./psvimg-create -n game -K YOUR-KEY game game`` (macOS/Linux), again replacing ``YOUR-KEY`` with the key you got from http://cma.henkaku.xyz/. This command will output a ``game.psvimg`` and a ``game.psvmd`` in the ``ux0_pspemu_temp_game_PSP_GAME_ID`` folder.
+1. Overwrite the files in the files in the QCMA Backup folder with these ones that you just generated.
+1. Restore the QCMA Backup of your PSP game after pasting the files.
+1. Copy the ARK_01234 folder from the ARK PBOOT bubble archive to /PSvita/PSAVEGAME/xxxxxxxxxxxxxxxx/. (xxxxxxxxxxxxxxxx is your PSN AID).
+1. Restore the ARK-2 PSP SAVEDATA from your pc to your Vita using QCMA.
 
 ___
 
-Continue to [Finalizing Setup](finalizing-setup)
+Continue to [Finalizing Setup (ARK)](finalizing-setup(ARK))
 {: .notice--primary}
