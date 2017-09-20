@@ -8,7 +8,7 @@ header:
   cta_label: "Get Started" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku Ensō.<br />"
+excerpt: "A complete guide to PS Vita / Vita TV Homebrew Enablers, <br /> from stock to HENkaku Ensō (3.60), ePSP CFW (3.61-3.63) or ePSP Homebrew (3.65+).<br />"
 ---
 
 {% capture notice-home %}
@@ -25,7 +25,7 @@ Read all of the introductory pages before proceeding.
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-Running homebrew on your device is 100% free using [just the PS Vita's Web browser](running-henkaku).
+Running native homebrew on your device is 100% free using [just the PS Vita's Web browser](running-henkaku). If your console is on firmware 3.61-3.63 use ePSP CFW or just homebrew if you are on 3.65 or above, however, you will need to have a PSP game installed.
 
 ## What is a Homebrew Enabler?
 
@@ -35,9 +35,9 @@ HEN can be easily set up on any console that is on 3.60 or lower.
 
 ## What does this guide install?
 
-This guide has the end goal of taking a completely unmodified Vita from stock firmware to a Homebrew Enabler called HENkaku.
+This guide has the end goal of taking a completely unmodified Vita from stock firmware to a boot time homebrew enabler called HENkaku Ensō (3.60). If your console is on 3.61 or higher, the best you can do is get ePSP CFW or Homebrew.
 
-HENkaku is currently the only feasible method for running homebrew on our PS Vita / TV systems. It will install an application that can be used to install packages and manage files called "molecularShell" which we will use to install "VitaShell", another package / file manager with more features. We will also install an offline version of HENkaku that takes advantage of the same browser exploit used by HENkaku in the email app. It gives us a way to run HENkaku even when our console is not connected to the internet.
+HENkaku Ensō is currently the only feasible method for running native homebrew on our PS Vita / TV systems. It will install an application that can be used to install packages and manage files called "molecularShell" which we will use to install "VitaShell", another package / file manager with more features. We will also install a boot time exploit to run HENkaku called HENkaku Ensō.
 
 For information on how HENkaku works, please see [this blog post](https://yifan.lu/2016/10/20/henkaku-koth-solved/) by [Yifan Lu](https://twitter.com/yifanlu).
 
@@ -53,7 +53,7 @@ For information on how HENkaku works, please see [this blog post](https://yifan.
 
 ## What do I need to know before starting?
 
-+ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files.**
++ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files without using specially designed tools to do these modifications.**
 + This guide will work on PS Vita, PS Vita Slim, and PSTV in all regions on firmware 3.60 or below.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
