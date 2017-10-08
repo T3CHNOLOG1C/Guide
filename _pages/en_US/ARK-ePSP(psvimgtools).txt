@@ -13,7 +13,7 @@ On this page we will install ARK.
 * A PSP game downloaded on your Vita.
 * The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
-* The [ARK PBOOT bubble archive]({{ "/files/setup_FW360_ARK_pboot_bubble.zip" | absolute_url }}).
+* The [`ARK PBOOT bubble archive`]({{ "/files/setup_FW360_ARK_pboot_bubble.zip" | absolute_url }}).
 
 #### Instructions
 
