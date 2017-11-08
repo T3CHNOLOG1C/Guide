@@ -13,8 +13,6 @@ During this process, we will setup programs such as the following:
 +  **Save Manager** *(a tool to dump and restore save games)*
 +  **PSTV ONLY: AntiBlacklist** *(a tool that enables playing all Vita games on the PS TV)*
 
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
-
 #### What you need
 
 * An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
@@ -38,11 +36,6 @@ During this process, we will setup programs such as the following:
 1. Copy `savemgr.vpk` to the `ux0:` folder on your Vita.
 1. Copy `download_enabler.suprx` to the `ux0:tai/` folder on your Vita.
 1. **PS TV Only:** Copy `AntiBlacklist.vpk` to the `ux0:` folder on your Vita.
-
-    ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
-    {: .notice--info}
-
-
 1. Press ⭕ on your Vita to close the FTP Server.
 
 ##### Section II - Installing Tools
