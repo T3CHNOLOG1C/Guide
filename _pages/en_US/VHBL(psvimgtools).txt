@@ -13,7 +13,7 @@ On this page we will install VHBL.
 * A PSP game downloaded on your Vita.
 * The latest release of [QCMA](https://codestation.github.io/qcma/) for your OS.
 * The latest release of [psvimgtools](https://github.com/yifanlu/psvimgtools/releases/latest) for your OS.
-* The [VHBL files archive](https://mega.nz/#!4QoVGDRD!mx7_kCQ83-GKlrGrN8rUl5hpYQAlI1Pl7gWm2lsPeuQ).
+* The [`VHBL files archive`]({{ "/files/VHBL_pboot_unrestricted.rar" | absolute_url }}).
 
 #### Instructions
 
