@@ -18,6 +18,10 @@ sitemap: false
 + [Installing VitaShell](installing-vitashell)
 + [Manual Update to 3.60 (HEUS)](manual-update-(HEUS))
 + [Offline Exploit to Ensō](offline-to-enso)
++ [SD2Vita Information and Setup](sd2vita-info-setup)
++ [SD Card formatting with Linux](sd-format-linux)
++ [SD Card formatting with MacOS](sd-format-macos)
++ [SD Card formatting with Windows](sd-format-windows)
 + [Troubleshooting](troubleshooting)
 + [Why Ads?](why-ads)
 {% endcapture %}
