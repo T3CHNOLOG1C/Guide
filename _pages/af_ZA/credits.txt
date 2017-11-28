@@ -2,9 +2,6 @@
 title: "Credits"
 ---
 
-**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
-{: .notice--primary}
-
 **Special thanks to Plailect for creating [3ds.guide](https://3ds.guide/)!**
 {: .notice--primary}
 
