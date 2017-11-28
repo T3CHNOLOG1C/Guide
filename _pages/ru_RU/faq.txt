@@ -8,7 +8,7 @@ title: "FAQ"
 **A:** Yes, but not natively, we can, however, hack the PSP Emulator within the Vita (ePSP)
 <br><br>
 <a name="faq_updatecfw" />**Q:** *How do I update HENkaku?*    
-**A:** TODO: Figure out if its just run henkaku via browser or reinstall enso?
+**A:** Uninstall Ensō, run HENkaku, reinstall Ensō.
 <br><br>
 <a name="faq_need" />**Q:** *What do I need to do this guide?*    
 **A:** This guide can be completely done with free software.
