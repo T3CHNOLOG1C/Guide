@@ -66,7 +66,17 @@ During this process, we will setup programs such as the following:
 
 ##### Section V - PS TV ONLY: Setting up AntiBlacklist
 
-1. (TODO: need to find someone with a pstv to help with this or just buy a pstv myself)
+1. Launch AntiBlacklist.
+1. Press ⭕ to install the v2 whitelist patch.
+1. Once the whitelist patch is installed, press △ to return to the main menu.
+1. Exit AntiBlacklist.
+1. Power off your PS TV system.
+1. Eject the memory card.
+1. Power on the console and wait for the database to refresh.
+1. Power off the console again.
+1. Re-insert the memory card.
+1. Power on the console again.
+
 
 ##### Section VI - Cleaning up
 
