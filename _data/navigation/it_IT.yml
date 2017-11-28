@@ -18,9 +18,9 @@ main:
     title: Utilizzare GodMode9
 bottom:
   - 
-    title: 'Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).'
+    title: Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).
   - 
-    title: 'If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.'
+    title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.
 footer:
   - 
     title: Codice Sorgente
