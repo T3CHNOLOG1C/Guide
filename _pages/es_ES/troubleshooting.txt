@@ -12,7 +12,10 @@ If you are unable to boot your device, please look for the section relevant to y
 
 #### Instructions
 
-1. TODO: figure out how to do this
+1. Go to your [PSN Account Management Page](https://account.sonyentertainmentnetwork.com/home/index!display.action)
+1. Under the devices section, choose "PlayStation Systems".
+1. Choose your console.
+1. Click "Deactivate".
 
 ## <a name="ts_browser" />A browser based exploit is not working
 Browser based exploits (such as the WebKit exploit used for HENkaku) can be unstable and crash frequently, but they can sometimes be fixed by doing the following steps
@@ -29,5 +32,6 @@ Sometimes the Henkaku Ensō installer will alert you about modifications to your
 
 ## <a name="ts_sys_down" />Black screen on boot
 
-1. TODO: add troubleshooting to do with resetting plugin config or something.
+1. Hold L on boot to disable Taihen plugin loading.
+1. If your device boots, try editing the ``ux0:tai/config.txt`` and remove any plugins you may have recently added.
 1. If these instructions do not work, your device may be bricked. You will need to repair/replace your device.
