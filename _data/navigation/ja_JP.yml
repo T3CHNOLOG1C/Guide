@@ -1,30 +1,30 @@
 ---
 main:
   - 
-    title: ガイド
+    title: 'ガイド'
   - 
-    title: よくある質問
+    title: 'よくある質問'
   - 
-    title: トラブルシューティング
+    title: 'トラブルシューティング'
   - 
-    title: 寄付
+    title: '寄付'
   - 
-    title: クレジット
+    title: 'クレジット'
   - 
     title: Updating to boot9strap
   - 
-    title: 地域変更
+    title: '地域変更'
   - 
     title: GodMode9 Usage
 bottom:
   - 
-    title: 'For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
+    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
-    title: 'If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.'
+    title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.
 footer:
   - 
-    title: ソースコード
+    title: 'ソースコード'
   - 
-    title: サイトナビ
+    title: 'サイトナビ'
   - 
-    title: なぜ広告が必要なの?
+    title: 'なぜ広告が必要なの?'
