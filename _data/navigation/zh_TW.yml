@@ -1,30 +1,30 @@
 ---
 main:
   - 
-    title: '首頁'
+    title: 首頁
   - 
-    title: '常見問題 FAQ'
+    title: 常見問題 FAQ
   - 
-    title: '疑難排解'
+    title: 疑難排解
   - 
-    title: '贊助'
+    title: 贊助
   - 
-    title: '製作群'
+    title: 製作群
   - 
-    title: '更新至 boot9strap'
+    title: 更新至 boot9strap
   - 
-    title: '區碼變更'
+    title: 區碼變更
   - 
-    title: '如何使用 GodMode9'
+    title: 如何使用 GodMode9
 bottom:
   - 
-    title: '若需英語支援，請於 <a href="https://discord.gg/MWxPgEp">Discord 上的 Nintendo Homebrew 伺服器</a>發問。'
+    title: 若需英語支援，請於 <a href="https://discord.gg/MWxPgEp">Discord 上的 Nintendo Homebrew 伺服器</a>發問。
   - 
     title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.
 footer:
   - 
-    title: '本站原始碼'
+    title: 本站原始碼
   - 
-    title: '網站導覽'
+    title: 網站導覽
   - 
-    title: '為什麼會有廣告?'
+    title: 為什麼會有廣告?
