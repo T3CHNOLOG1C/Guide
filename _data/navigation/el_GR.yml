@@ -1,19 +1,19 @@
 ---
 main:
   - 
-    title: 'Οδηγός'
+    title: Οδηγός
   - 
-    title: 'Συχνές Ερωτήσεις'
+    title: Συχνές Ερωτήσεις
   - 
-    title: 'Αντιμετώπιση Προβλημάτων'
+    title: Αντιμετώπιση Προβλημάτων
   - 
-    title: 'Δωρεές'
+    title: Δωρεές
   - 
-    title: 'Συντελεστές'
+    title: Συντελεστές
   - 
     title: Updating to boot9strap
   - 
-    title: 'Αλλαγή Περιοχής'
+    title: Αλλαγή Περιοχής
   - 
     title: GodMode9 Usage
 bottom:
@@ -23,8 +23,8 @@ bottom:
     title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.
 footer:
   - 
-    title: 'Κώδικας'
+    title: Κώδικας
   - 
-    title: 'Πλοήγηση Iστοτόπου'
+    title: Πλοήγηση Iστοτόπου
   - 
-    title: 'Γιατί βλέπω διαφημίσεις;'
+    title: Γιατί βλέπω διαφημίσεις;
