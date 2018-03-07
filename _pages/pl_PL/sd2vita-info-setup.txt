@@ -22,7 +22,7 @@ During this process, we will setup your SD2Vita Adapter to get it working with y
 1. Copy all files from `ux0:tai` to `ur0:tai`
 1. Add the following line to ``ur0:tai/config.txt`` under the line ``*KERNEL``:
  + ``ur0:tai/gamesd.skprx``.
-1. Backup your Vita Memory Card to your computer via VitaShell using USB or FTP
+1. Backup your Vita Memory Card (ux0 directory) to your computer via VitaShell using USB or FTP
  + If you're using USB, make sure you have hidden files enabled and hidden operating system files enabled
 1. Put your microSD card into your computer
 
