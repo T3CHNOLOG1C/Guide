@@ -1,30 +1,30 @@
 ---
 main:
   - 
-    title: 'Руководство'
+    title: Руководство
   - 
-    title: 'Вопросы и ответы'
+    title: Вопросы и ответы
   - 
-    title: 'Проблемы и их решения'
+    title: Проблемы и их решения
   - 
-    title: 'Пожертвования'
+    title: Пожертвования
   - 
-    title: 'Благодарности'
+    title: Благодарности
   - 
-    title: 'Обновление до boot9strap'
+    title: Обновление до boot9strap
   - 
-    title: 'Смена региона'
+    title: Смена региона
   - 
-    title: 'Использование GodMode9'
+    title: Использование GodMode9
 bottom:
   - 
-    title: 'Для поддержки на английском языке обратитесь за помощью сюда <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
+    title: Для поддержки на английском языке обратитесь за помощью сюда <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
     title: If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="bitcoin:1GqwRiwGsHC5a1E4NMFmgs6YnrLkP6oEjB">Bitcoin</a>.
 footer:
   - 
-    title: 'Исходный код'
+    title: Исходный код
   - 
-    title: 'Навигация по сайту'
+    title: Навигация по сайту
   - 
-    title: 'Зачем реклама?'
+    title: Зачем реклама?
