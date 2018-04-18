@@ -37,3 +37,6 @@ ___
 
 Continue to [Installing HENKaku Ensō](installing-enso)
 {: .notice--primary}
+
+Or continue to [Updating to HENKaku Ensō with Firmware 3.65](update-365) in case you want a recent software version
+{: .notice--primary}
