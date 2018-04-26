@@ -23,7 +23,7 @@ Software Version 3.65:
 * The original [image](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP) of firmware 3.65 for PS Vita
 * An FTP client such as [FileZilla](https://filezilla-project.org/download.php)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases)
-* The latest version of Content Manager Assistant for [Windows](cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend using [qcma](https://codestation.github.io/qcma/) or install a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player.
+* The latest version of Content Manager Assistant for [Windows](http://cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend using [qcma](https://codestation.github.io/qcma/) or install a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player.
 * An original Sony© Memory Card for the update process. You don't loose any data and you can use it for as much devices, as you want. Before you use it with another device, unlink the Sony© Memory Card via `Settings` application -> `Henkaku Settings` -> `Unlink Memory Card` -> turn your PS Vita off -> put it into another device.
 
 ##### Optional
