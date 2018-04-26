@@ -9,7 +9,7 @@ If you use a SD2Vita like device, you need an original Sony© Memory Card to do 
 
 Software Version 3.65:
 ##### Pros
-- You will be able to access the PSN store, activate your device and download your purchased games again (only as long as Sony doesn't decide to release a new update that prevents you from doing that).
+- You will now be able to access the PSN store, activate your device and download your purchased games again (only as long as Sony doesn't decide to release a new update that prevents you from doing that).
 - You will be able to play all games that were released for firmwares 3.61-3.65.
 
 ##### Cons
@@ -23,8 +23,8 @@ Software Version 3.65:
 * The original [image](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP) of firmware 3.65 for PS Vita
 * An FTP client such as [FileZilla](https://filezilla-project.org/download.php)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases)
-* The latest version of Content Manager Assistant for [Windows](cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend to install a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player.
-* An original Sony© Memory Card for the update process
+* The latest version of Content Manager Assistant for [Windows](cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend using [qcma](https://codestation.github.io/qcma/) or install a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player.
+* An original Sony© Memory Card for the update process. You don't loose any and can use it for as much devices, as you want. Before you use it with another device, unlink the Sony© Memory Card via `Settings` application -> `Henkaku Settings` -> `Unlink Memory Card` turn your PS Vita off and put it into another device.
 
 ##### Optional
 If you are using plugins, please download the newest version with 3.65/3.67 support to use them after the update:
@@ -37,10 +37,11 @@ If you are using plugins, please download the newest version with 3.65/3.67 supp
 #### Instructions
 
 ##### Section I - Backup VitaShell
+It is highly recommended that you create a CMA Backup for ``VitaShell`` to restore it, if anything goes wrong after the 3.65 update. You can skip this step, but in emergency case you have to restore ``VitaShell`` with [psvimgtools](https://github.com/yifanlu/psvimgtools) which is much more complicated than restoring a CMA Backup.
 1. Update VitaShell to *1.82* or higher via the ``*.vpk``. If you get an error when trying to install the vpk, simply rename the ``vpk`` to ``zip``, extract the ``zip`` and manually copy the **eboot.bin** file to ``ux0:app/VITASHELL/eboot.bin``.
 1. Start VitaShell and check if it has version *1.82* or newer.
 1. Install Content Manager Assistant for Windows or MacOS.
-1. Connect your PSVita via USB cable and start the `Content Manager` application on your PS Vita. If you don't have a Playstation Network© account create one and login with it. Select `Copy Content` and after that choose `Copy Content` `PC` -> `PS Vita System`
+1. Connect your PSVita via USB cable and start the `Content Manager` application on your PS Vita. If you don't have a Playstation Network© account create one (dummy account for safety) and login with it. Select `Copy Content` and after that choose `Copy Content` `PC` -> `PS Vita System`
 1. Choose `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`.
 1. Exit the `Content Manager` application
 
