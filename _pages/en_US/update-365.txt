@@ -87,8 +87,8 @@ If you have HENkaku Ensō installed, follow these steps. If not, proceed to Sect
 1. Don't touch anything until the system reboots. You now should see the Ensō Symbol instead of the Playstation Symbol as the Splash Screen when the PS Vita is booting. Your PS Vita is now on 3.65 HENkaku Ensō.
 
 ##### Section VI - Restore plugins
-1. In case you lost VitaShell, restore it with Content Manager
- + Connect your PS Vita via USB cable and start the `Content Manager` Application on your PS Vita. Select `Copy Content`. After that choose `Copy Content` `PS Vita System` -> `PC` -> `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`
+1. In case you lost VitaShell, restore it with Content Manager:
+ + Connect your PS Vita via USB cable and start the `Content Manager` application on your PS Vita. Select `Copy Content`: `PC` -> `PS Vita System` ->`Applications` -> `PS Vita` -> `VitaShell` and press `Copy`
 1. Restore your taiHEN configuration by copying ``ux0:config.txt`` to ``ur0:tai/config.txt`` via VitaShell
 
 ##### Optional - Section VII - Restore SD2Vita
