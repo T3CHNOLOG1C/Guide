@@ -9,20 +9,20 @@ Our next step is to install VitaShell, which is similar to molecularShell but ha
 
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
 * An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
-* An internet connection on your Vita and your PC
+* An internet connection on your PS Vita and your PC
 
 #### Instructions
 
-1. Open molecularShell on your Vita
+1. Open molecularShell on your PS Vita
 1. Press Select to start the built-in FTP Server
-1. On your PC, connect to your Vita using your FTP client
+1. On your PC, connect to your PS Vita using your FTP client
 1. Copy the VitaShell `.vpk` to `ux0:` folder
 
     ![]({{ base_path }}/images/screenshots/filezilla-vitashell.png)
     {: .notice--info}
 
-1. Press ⭕ on your Vita to close the FTP Server
-1. Navigate to the `ux0:` folder on your Vita
+1. Press ⭕ on your PS Vita to close the FTP Server
+1. Navigate to the `ux0:` folder on your PS Vita
 1. Select the VitaShell `.vpk` and press X
 1. Press X to dismiss the warning and VitaShell will install
 1. Your device should now have VitaShell installed

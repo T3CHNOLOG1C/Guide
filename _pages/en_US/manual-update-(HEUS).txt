@@ -4,7 +4,7 @@ title: "Manual Update to 3.60 (HEUS)"
 
 #### What you need
 
-* An internet connection on your Vita / PS TV
+* An internet connection on your PS Vita / PS TV
 
 #### Instructions
 
@@ -26,7 +26,7 @@ title: "Manual Update to 3.60 (HEUS)"
 
 1. Select 'System Update'.
 1. Select 'Update Using Wi-Fi'
-1. If you get an error saying your system is up to date, that means either your Vita is on 3.60 already, or it is on a firmware > 3.60 and is not supported by HENkaku.
+1. If you get an error saying your system is up to date, that means either your PS Vita is on 3.60 already, or it is on a firmware > 3.60 and is not supported by HENkaku.
 1. Make sure that the update says '3.60 (変革 Compatible)', if it says anything else, make sure you followed ALL the Steps!
 1. Proceed with the update process and wait for the system to reboot.
 

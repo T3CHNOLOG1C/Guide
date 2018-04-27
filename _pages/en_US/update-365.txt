@@ -3,8 +3,7 @@ title: "HENkaku Update to HENkaku Ensō 3.65"
 ---
 
 #### Overview of steps
-
-During this process, we will update your PSVita from stock, HENkaku or HENkaku Ensō version 3.60 to HENkaku Ensō 3.65.
+During this process, we will update your PS Vita from stock, HENkaku or HENkaku Ensō version 3.60 to HENkaku Ensō 3.65.
 If you use a SD2Vita like device, you need an original Sony© Memory Card to do the update.
 
 Software Version 3.65:
@@ -18,12 +17,11 @@ Software Version 3.65:
 - Some applications may not work on the new firmware and need to be ported.
 
 #### What you need
-
 * The latest release of [update365](https://github.com/TheOfficialFloW/update365/releases) (the updater.vpk)
-* The original [image](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP) of firmware 3.65 for PS Vita
+* The firmware [image](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP) 3.65 for PS Vita from TheOfficialFloW's github (is needed by the update365 utility)
 * An FTP client such as [FileZilla](https://filezilla-project.org/download.php)
 * The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases)
-* The latest version of Content Manager Assistant for [Windows](http://cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend using [qcma](https://codestation.github.io/qcma/) or install a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player.
+* The latest version of Content Manager Assistant for [Windows](http://cma.dl.playstation.net/cma/win/) or [MacOS](http://cma.dl.playstation.net/cma/mac/). For linux I can recommend installing a virtual machine with Windows 7-10 30 day trial and USB redirecting via virt-manager or VMware Workstation Player or install an open source implementation of cma like [qcma](https://codestation.github.io/qcma/)
 * An original Sony© Memory Card for the update process. You don't loose any data and you can use it for as much devices, as you want. Before you use it with another device, unlink the Sony© Memory Card via `Settings` application -> `Henkaku Settings` -> `Unlink Memory Card` -> turn your PS Vita off -> put it into another device.
 
 ##### Optional
@@ -38,41 +36,40 @@ If you are using plugins, please download the newest version with 3.65/3.67 supp
 
 ##### Section I - Backup VitaShell
 It is highly recommended that you create a CMA Backup for ``VitaShell`` to restore it, if anything goes wrong after the 3.65 update. You can skip this step, but in emergency case you have to restore ``VitaShell`` with [psvimgtools](https://github.com/yifanlu/psvimgtools) which is much more complicated than restoring a CMA Backup.
-1. Update VitaShell to *1.82* or higher via the ``*.vpk``. If you get an error when trying to install the vpk, simply rename the ``vpk`` to ``zip``, extract the ``zip`` and manually copy the **eboot.bin** file to ``ux0:app/VITASHELL/eboot.bin``.
-1. Start VitaShell and check if it has version *1.82* or newer.
-1. Install Content Manager Assistant for Windows or MacOS.
-1. Connect your PSVita via USB cable and start the `Content Manager` application on your PS Vita. If you don't have a Playstation Network© account create one (dummy account for safety) and login with it. Select `Copy Content` and after that choose `Copy Content` `PC` -> `PS Vita System`
-1. Choose `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`.
+1. Update VitaShell to *1.82* or higher via the ``*.vpk``. If you get an error when trying to install the vpk, simply rename the ``vpk`` to ``zip``, extract the ``zip`` and manually copy the **eboot.bin** file to ``ux0:app/VITASHELL/eboot.bin``
+1. Start VitaShell and check if it has version *1.82* or newer
+1. Install Content Manager Assistant for Windows or MacOS
+1. Connect your PS Vita via USB cable and start the `Content Manager` application on your PS Vita. If you don't have a Playstation Network© account create one (dummy account for safety) and login with it. Select `Copy Content` and after that choose `Copy Content` `PS Vita System` -> `PC`
+1. Choose `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`
 1. Exit the `Content Manager` application
 
 ##### Section II - Updating Plugins
 1. Copy the new version of *download_enabler.suprx* and *nonpdrm.skprx* to the SD card via VitaShell to ``ux0:tai/``
 1. Copy the new version of *download_enabler.suprx* and *nonpdrm.skprx* from ``ux0:tai/`` to ``ur0:tai/``
-1. Reboot your PS Vita to check if the new plugins are working correctly.
+1. Reboot your PS Vita to check if the new plugins are working correctly
 
 ##### Optional - Section III - Prepartions for SD2Vita
-If you are using a SD2Vita follow these steps. If not, proceed to Section IV
+If you are using a SD2Vita follow these steps. If not, proceed to Section IV.
 
 1. Copy the new version of *gamesd.skprx* to the SD card via VitaShell (FTP or USB) to ``ux0:tai/``
 1. Copy the new version of *gamesd.skprx* from ``ux0:tai/`` to ``ur0:tai/``
 1. Remove the following line from ``ur0:tai/config.txt`` under the line ``*KERNEL``:
- + ``ur0:tai/gamesd.skprx``.
+ + ``ur0:tai/gamesd.skprx``
 1. Go to the `Settings` application -> `Henkaku Settings` -> `Unlink Memory Card`
 1. Turn your PS Vita off
-1. Remove your SD2Vita from your gamecard slot and insert your original Sony© Memory Card to the memory card slot.
-1. Turn your PS Vita on and format your orginal Sony© Memory Card if neccessary.
-1. If you have formatted it, restore VitaShell via `Content Manager`.
- + Connect your PSVita via USB cable and start the `Content Manager` application on your PSVita. Select `Copy Content` and after that choose `Copy Content` `PS Vita System` -> `PC` -> `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`.
+1. Remove your SD2Vita from your gamecard slot and insert your original Sony© Memory Card to the memory card slot
+1. Turn your PS Vita on and format your orginal Sony© Memory Card if neccessary
+1. If you have formatted it, restore VitaShell via `Content Manager`
+ + Connect your PS Vita via USB cable and start the `Content Manager` application on your PS Vita. Select `Copy Content` and after that choose `Copy Content` `PS Vita System` -> `PC` -> `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`
 1. Exit `Content Manager` and start `VitaShell`
 
 ##### Optional - Section IV - Uninstall Ensō
-If you have HENkaku Ensō installed, follow these steps. If not, proceed to Section V
+If you have HENkaku Ensō installed, follow these steps. If not, proceed to Section V.
 
 1. Copy *enso.vpk* via VitaShell (FTP or USB) to your original Sony© Memory Card into the directory ``ux0:``
 1. Install the *enso.vpk* via VitaShell
-1. Run the Ensō Installer, read the warning and press ▲ (triangle) to fully uninstall Ensō.
+1. Run the Ensō Installer, read the warning and press ▲ (triangle) to fully uninstall Ensō
 1. Turn the PS Vita off and turn it on again
-
 
 ##### Section V - Run the update
 1. Start HENkaku via browser on [http://henkaku.xyz/go/](http://henkaku.xyz/go/)
@@ -80,28 +77,28 @@ If you have HENkaku Ensō installed, follow these steps. If not, proceed to Sect
 1. Edit ``ur0:tai/config.txt`` and comment out every plugin you use. F.e. (*download_enabler*, *nonpdrm*)
 1. Copy *updater.vpk* to your memory card into the directory ``ux0:`` via VitaShell (FTP or USB)
 1. Install the *updater.vpk* via VitaShell
-1. Start the *3.65 HENkaku Ensō Updater* to check that the *PSP2UPDAT.PUP* is missing (Filesystem structure is now created).
-1. Start VitaShell and copy *PSP2UPDAT.PUP* to ``ux0:app/UPDATE365/PSP2UPDAT.PUP`` (FTP or USB).
+1. Start the *3.65 HENkaku Ensō Updater* to check that the *PSP2UPDAT.PUP* is missing (Filesystem structure is now created)
+1. Start VitaShell and copy *PSP2UPDAT.PUP* to ``ux0:app/UPDATE365/PSP2UPDAT.PUP`` (FTP or USB)
 1. Go to the `Settings` application and unlink your memory card via `Henkaku Settings` -> `Unlink Memory Card`
 1. Reboot your PS Vita and start HENkaku via browser on [http://henkaku.xyz/go/](http://henkaku.xyz/go/)
-1. Start the *3.65 HENkaku Ensō Updater* and accept the two warnings and proceed.
+1. Start the *3.65 HENkaku Ensō Updater* and accept the two warnings and proceed
+ + Make sure you don't have Ensō installed. If so, return to section IV
  + Don't run any other homebrew before the *3.65 HENkaku Ensō Updater*. In case you did, reboot your device and do Step 8. and 9. again.
-1. Don't touch anything until the system reboots.
-1. You now should see the Ensō Symbol instead of the Playstation Symbol as the Splash Screen when the PS Vita is booting
+1. Don't touch anything until the system reboots. You now should see the Ensō Symbol instead of the Playstation Symbol as the Splash Screen when the PS Vita is booting. Your PS Vita is now on 3.65 HENkaku Ensō.
 
 ##### Section VI - Restore plugins
 1. In case you lost VitaShell, restore it with Content Manager
- + Connect your PSVita via USB cable and start the `Content Manager` Application on your PS Vita. Select `Copy Content`. After that choose `Copy Content` `PS Vita System` -> `PC` -> `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`.
+ + Connect your PS Vita via USB cable and start the `Content Manager` Application on your PS Vita. Select `Copy Content`. After that choose `Copy Content` `PS Vita System` -> `PC` -> `Applications` -> `PS Vita` -> `VitaShell` and press `Copy`
 1. Restore your taiHEN configuration by copying ``ux0:config.txt`` to ``ur0:tai/config.txt`` via VitaShell
 
 ##### Optional - Section VII - Restore SD2Vita
-If you are using a SD2Vita follow these steps. If not, you are already done with Section VI
+If you are using a SD2Vita follow these steps. If not, you are already done with Section VI.
 
 1. Re-enable the ``gamesd.skprx`` plugin by adding the following line from ``ur0:tai/config.txt`` under the line ``*KERNEL``:
- + ``ur0:tai/gamesd.skprx``.
+ + ``ur0:tai/gamesd.skprx``
 1. Go to the `Settings` application -> `Henkaku Settings` -> `Unlink Memory Card` to unlink the original Sony© Memory Card
 1. Turn your PS Vita off
-1. Remove your original Sony© Memory Card from your memory card slot and insert your SD2Vita to the gamecard slot.
+1. Remove your original Sony© Memory Card from your memory card slot and insert your SD2Vita to the gamecard slot
  + Check if the microSD card is put in to the SD2Vita SD card slot correctly, before putting it into your PS Vita to be sure it reads it correctly.
 1. Turn your PS Vita on and check if every software is listed correctly (Games, Homebrew, ...)
 
