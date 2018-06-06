@@ -15,6 +15,7 @@ If I forgot you here, contact me and I'll add your name.
     + Xam (Buying the domain)
     + Dylan "MemeWay V1" (psvimagetools Guides)
     + Molecule team (HENkaku)
+    + Phils3r (SD2Vita and update to 3.65 Pages)
 
 {% endcapture %}
 
