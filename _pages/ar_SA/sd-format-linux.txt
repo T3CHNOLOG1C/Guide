@@ -18,7 +18,7 @@ During this process, we will setup your SD Card to get it working with your SD2V
 #### Instructions
 
 1. Put your SD Card into your Computer. For example with an SD Card adapter or built-in SD Card reader.
-1. Find the whole-device node for the SD Card (usually **/dev/sdX** or **/dev/mmcblkX**.
+1. Find the whole-device node for the SD Card (usually **/dev/sdX** or **/dev/mmcblkX**).
 1. Unmount all partitions, but don't eject the microSD. Replace the X with the actual device name. 
 {% highlight bash %}
 root# umount /dev/sdX1
@@ -32,7 +32,7 @@ root# dd if=/path/zzBlank.img of=/dev/sdX
 {% highlight bash %}
 root# mkfs.exfat /dev/sdX
 {% endhighlight %}
-1. mount your SD Card on your system. Use the uid of your user name. You can find it with the comman `id`. Replace the **1000** with your current uid
+1. mount your SD Card on your system. Use the uid of your user name. You can find it with the command `id`. Replace the **1000** with your current uid
 {% highlight bash %}
 root# mount -o uid=1000 /dev/sdX /mnt/
 {% endhighlight %}
