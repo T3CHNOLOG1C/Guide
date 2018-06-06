@@ -70,12 +70,12 @@ During this process, we will setup programs such as the following:
 1. Press ⭕ to install the v2 whitelist patch.
 1. Once the whitelist patch is installed, press △ to return to the main menu.
 1. Exit AntiBlacklist.
-1. Power off your PS TV system.
+1. Turn your PS TV system off.
 1. Eject the memory card.
-1. Power on the console and wait for the database to refresh.
-1. Power off the console again.
+1. Turn the console on and wait for the database to refresh.
+1. Turn the console off again.
 1. Re-insert the memory card.
-1. Power on the console again.
+1. Turn the console on again.
 
 
 ##### Section VI - Cleaning up
@@ -85,7 +85,7 @@ During this process, we will setup programs such as the following:
 ___
 
 {% capture notice-6 %}   
-You will now have homebrew access every time you power on your Vita.
+You will now have homebrew access every time you turn your PS Vita on.
 TaiHEN plugins will now be loaded at boot, you can disable plugin loading by holding L during boot.
 {% endcapture %}
 
@@ -95,5 +95,5 @@ TaiHEN plugins will now be loaded at boot, you can disable plugin loading by hol
 For information on using MaiDumpTool to dump and install your games, check out the [MaiDumpTool Usage](maidumptool-usage) page.
 {: .notice--success}
 
-For information on the SD2Vita, the cartridge slot MicroSD Adapter check out the [SD2Vita Information and Setup](sd2vita-info-setup) page.
+For information how to install the SD2Vita, the cartridge slot MicroSD adapter check out the [SD2Vita Information and Setup](sd2vita-info-setup) page.
 {: .notice--success}
