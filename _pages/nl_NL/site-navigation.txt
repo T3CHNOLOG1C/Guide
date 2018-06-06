@@ -23,6 +23,7 @@ sitemap: false
 + [SD Card formatting with MacOS](sd-format-macos)
 + [SD Card formatting with Windows](sd-format-windows)
 + [Troubleshooting](troubleshooting)
++ [Update to HENkaku Ensō 3.65](update-365)
 + [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
