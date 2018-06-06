@@ -17,10 +17,10 @@ title: "FAQ"
 **A:** Bricks are relatively rare if you know what you are doing and don't modify critical system files.
 <br><br>
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! HENkaku enables native vita homebrew, and the ePSP exploits enable using PSP homebrew.
+**A:** Yes! HENkaku enables native Vita homebrew, and the ePSP exploits enable using PSP homebrew.
 <br><br>
 <a name="faq_updates" />**Q:** *Is it safe to update after getting HENkaku Ensō?*     
-**A:** No. You will lose access to HENkaku
+**A:** No. You will lose access to HENkaku. You can update to a modified version of 3.65 with this [HowTo](update-365)
 <br><br>
 <a name="faq_support" />**Q:** *Where should I go for support?*    
 **A:** For support, ask for help at [Vita Hacking on Discord](https://discord.gg/JXEKeg6), [/r/VitaHacks](https://reddit.com/r/vitahacks), or [The PS Vita hacking board at GBATemp](http://gbatemp.net/forums/ps-vita-hacking-homebrew.217/).
@@ -35,7 +35,7 @@ title: "FAQ"
 **A:** If you start with an PSN Account and follow every step, you will end up keeping your PSN Account at the end.
 <br><br>
 <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to use an FTP Client.
+**A:** All you need is the ability to use an FTP Client. Except for [3.65 update](update-365). You need a Windows or MacOS computer for it.
 <br><br>
 <a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
 **A:** Please look at the [troubleshooting guide](troubleshooting).
