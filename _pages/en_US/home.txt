@@ -35,7 +35,7 @@ HEN can be easily set up on any console that is on 3.60 or lower.
 
 ## What does this guide install?
 
-This guide has the end goal of taking a completely unmodified Vita from stock firmware to a boot time homebrew enabler called HENkaku Ensō (3.60). If your console is on 3.61 or higher, the best you can do is get ePSP CFW or Homebrew.
+This guide has the end goal of taking a completely unmodified PS Vita from stock firmware to a boot time homebrew enabler called HENkaku Ensō (3.60). If your console is on 3.61 or higher, the best you can do is get ePSP CFW or Homebrew.
 
 HENkaku Ensō is currently the only feasible method for running native homebrew on our PS Vita / TV systems. It will install an application that can be used to install packages and manage files called "molecularShell" which we will use to install "VitaShell", another package / file manager with more features. We will also install a boot time exploit to run HENkaku called HENkaku Ensō.
 
@@ -49,11 +49,11 @@ For information on how HENkaku works, please see [this blog post](https://yifan.
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
 + Dump your game cards to a format you can install, and play them without needing the card.
 + Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
-+ Play backups of your PSP games on your Vita with Adrenaline ePSP CFW (3.60) or ARK ePSP CFW (3.61-3.63)
++ Play backups of your PSP games on your PS Vita with Adrenaline ePSP CFW (3.60) or ARK ePSP CFW (3.61-3.63)
 
 ## What do I need to know before starting?
 
-+ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files without using specially designed tools to do these modifications.**
++ **Before beginning the guide, you must know the risks of PS Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're very very rare and usually only happen after modifying system files, but still a possibility, however that possibility is slim to none, considering that this guide does not have you modify any critical system files without using specially designed tools to do these modifications.**
 + This guide will work on PS Vita, PS Vita Slim, and PSTV in all regions on firmwares from 1.02 to 3.67
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
 + **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**

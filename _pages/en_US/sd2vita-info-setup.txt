@@ -10,7 +10,7 @@ During this process, we will setup your SD2Vita Adapter to get it working with y
 
 * The latest release of [GameSD](https://github.com/xyzz/gamecard-microsd/releases/) (the .skprx file)
 * The [zzBlank.img]({{ base_path }}/files/zzBlank.img) file 
-* An FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
+* A FTP Client such as [FileZilla](https://filezilla-project.org/download.php)
 
 #### Instructions
 
